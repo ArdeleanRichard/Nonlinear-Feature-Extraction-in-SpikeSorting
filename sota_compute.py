@@ -20,6 +20,10 @@ import torch
 print(torch.cuda.is_available())  # Should return True if GPU is available
 print(torch.cuda.device_count())  # Number of GPUs available
 
+# Other algorithms:
+# https://scikit-learn.org/stable/modules/manifold.html#multi-dimensional-scaling-mds
+# https://pydiffmap.readthedocs.io/en/master/reference/diffusion_map.html
+
 
 def load_algorithms_fe():
     algorithms = {
