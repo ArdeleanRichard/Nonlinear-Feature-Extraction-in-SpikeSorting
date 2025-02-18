@@ -16,28 +16,12 @@ from constants import DIR_RESULTS, DIR_FIGURES
 from gs_datasets import load_all_data
 from visualization import scatter_plot
 
-import torch
-print(torch.cuda.is_available())  # Should return True if GPU is available
-print(torch.cuda.device_count())  # Number of GPUs available
-
 # Other feature extraction algorithms:
 # https://scikit-learn.org/stable/modules/manifold.html#multi-dimensional-scaling-mds
 # https://pydiffmap.readthedocs.io/en/master/reference/diffusion_map.html
 
-# Other clustering algorithms:
-# Louvain: Available in the community module.
-# import community as community_louvain
-# import networkx as nx
-# G = nx.karate_club_graph()  # Example graph
-# partition = community_louvain.best_partition(G)
-# print(partition)  # Dictionary of node assignments
-# 
-# Leiden: Available in leidenalg, usually used with igraph.
-# import igraph as ig
-# import leidenalg
-# G = ig.Graph.Famous("Zachary")  # Example graph
-# partition = leidenalg.find_partition(G, leidenalg.ModularityVertexPartition)
-# print(partition)
+
+
 
 
 def load_algorithms_fe():
