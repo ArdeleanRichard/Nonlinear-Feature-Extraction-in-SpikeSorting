@@ -4,82 +4,32 @@ import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
-from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA, FastICA
-from sklearn.manifold import Isomap
 from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score, adjusted_mutual_info_score, calinski_harabasz_score
 from sklearn.metrics.cluster import contingency_matrix
-from umap import UMAP
 import matplotlib
+
+from gs_algos import load_algorithms_fe, load_algorithms_clust
+
 matplotlib.use('Agg')
 from constants import DIR_RESULTS, DIR_FIGURES
 from gs_datasets import load_all_data
 from visualization import scatter_plot
 
-# Other feature extraction algorithms:
-# https://scikit-learn.org/stable/modules/manifold.html#multi-dimensional-scaling-mds
-# https://pydiffmap.readthedocs.io/en/master/reference/diffusion_map.html
 
-
-
-
-
-def load_algorithms_fe():
-    algorithms = {
-        # "pca": {
-        #     "estimator": PCA,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #     },
-        # },
-        # "ica": {
-        #     "estimator": FastICA,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "fun": "logcosh",
-        #         "max_iter": 200,
-        #         "tol": 1e-3,
-        #     },
-        # },
-        # "isomap": {
-        #     "estimator": Isomap,
-        #     "param_grid": {
-        #         "n_neighbors": 100,
-        #         "n_components": 2,
-        #         "eigen_solver": "arpack",
-        #         "path_method": "D",
-        #         "n_jobs": -1,
-        #     },
-        # },
-        "umap": {
-            "estimator": UMAP,
-            "param_grid": {
-                "n_neighbors": 10,
-                "min_dist": 0.05,
-                "metric": "chebyshev",
-                "n_epochs": 500,
-                "n_components": 2,
-                "n_jobs": 1,
-            },
-        },
-
-    }
-
-    return algorithms
-
-def load_algorithms_clust():
-    algorithms = {
-
-        "kmeans": {
-            "estimator": KMeans,
-            "param_grid": {
-                "n_clusters": 2,
-            },
-        },
-
-    }
-
-    return algorithms
+def data_normalisation(X, norm_type=""):
+    if norm_type == "":
+        return X
+    elif norm_type == "minmax":
+        scaler = preprocessing.MinMaxScaler().fit(X)
+        X = scaler.transform(X)
+        X = np.clip(X, 0, 1)
+        return X
+    elif norm_type == "standard":
+        scaler = preprocessing.StandardScaler().fit(X)
+        X = scaler.transform(X)
+        return X
+    else:
+        return None
 
 
 
@@ -99,9 +49,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 print(fe_name, clust_name, dataset_name)
                 # Normalize dataset
                 test = np.copy(X)
-                # scaler = preprocessing.MinMaxScaler().fit(X)
-                # X = scaler.transform(X)
-                # X = np.clip(X, 0, 1)
+
 
                 fe_param_names = list(fe_details["param_grid"].keys())
                 clust_param_names = list(clust_details["param_grid"].keys())
@@ -116,7 +64,6 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
 
                 fe_params = fe_details["param_grid"]
                 clust_params = clust_details["param_grid"]
-
 
                 scores = None
 
@@ -141,13 +88,13 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                         ari = ami = purity = silhouette = calinski_harabasz = davies_bouldin = -1
 
                     scores = {
+                        "dataset": dataset_name,  # Track dataset in results
                         "adjusted_rand_score": ari,
                         "adjusted_mutual_info_score": ami,
                         "purity_score": purity,
                         "silhouette_score": silhouette,
                         "calinski_harabasz_score": calinski_harabasz,
                         "davies_bouldin_score": davies_bouldin,
-                        "dataset": dataset_name  # Track dataset in results
                     }
                     scatter_plot.plot(f'{fe_name} + {clust_name} on {dataset_name}', X_transformed, y_pred, marker='o')
                     plt.savefig(DIR_FIGURES + "svgs/" + f'{dataset_name}_{fe_name}_{clust_name}.svg')
@@ -162,13 +109,13 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 except Exception as e:
                     print(f"[ERROR] {clust_name}, {fe_params}, {e}")
                     scores = {
+                        "dataset": dataset_name,
                         "adjusted_rand_score": -1,
                         "adjusted_mutual_info_score": -1,
                         "purity_score": -1,
                         "silhouette_score": -1,
                         "calinski_harabasz_score": -1,
                         "davies_bouldin_score": -1,
-                        "dataset": dataset_name
                     }
 
                 results.append(scores)

@@ -9,3 +9,8 @@ scikit-network
 igraph
 leidenalg
 python-louvain
+pydiffmap
+minisom
+phate
+trimap
+kmapper
