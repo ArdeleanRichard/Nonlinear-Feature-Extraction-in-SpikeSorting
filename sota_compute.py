@@ -39,6 +39,7 @@ def normalize_dbs(df):
 
 def perform_grid_search(datasets, featureextraction_algorithms, clustering_algorithms, n_repeats=10):
     os.makedirs(DIR_RESULTS + "./grid_search/", exist_ok=True)
+    os.makedirs(DIR_RESULTS + "./spaces/", exist_ok=True)
 
     for fe_name, fe_details in featureextraction_algorithms.items():
         results = []
@@ -48,7 +49,8 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
             for dataset_name, (X, y_true) in datasets:
                 print(fe_name, clust_name, dataset_name)
                 # Normalize dataset
-                test = np.copy(X)
+                X_copy = np.copy(X)
+                X_copy = data_normalisation(X_copy, norm_type="")
 
 
                 fe_param_names = list(fe_details["param_grid"].keys())
@@ -70,6 +72,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 try:
                     transformer = fe_details["estimator"](**fe_params)
                     X_transformed = transformer.fit_transform(X)
+                    os.makedirs(DIR_RESULTS + f"./spaces/{fe_name}/", exist_ok=True)
                     np.savetxt(DIR_RESULTS + f"spaces/{fe_name}/{dataset_name}.csv", X_transformed, delimiter=",")
 
                     estimator = clust_details["estimator"](**clust_params)
@@ -80,9 +83,9 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                         ami = adjusted_mutual_info_score(y_true, y_pred)
                         contingency_mat = contingency_matrix(y_true, y_pred)
                         purity = np.sum(np.amax(contingency_mat, axis=0)) / np.sum(contingency_mat)
-                        silhouette = silhouette_score(test, y_pred)
-                        calinski_harabasz = calinski_harabasz_score(test, y_pred)
-                        davies_bouldin = davies_bouldin_score(test, y_pred)
+                        silhouette = silhouette_score(X_copy, y_pred)
+                        calinski_harabasz = calinski_harabasz_score(X_copy, y_pred)
+                        davies_bouldin = davies_bouldin_score(X_copy, y_pred)
                     else:
                         print(f"[1CLUST] {fe_name}, {clust_name}, {fe_params}")
                         ari = ami = purity = silhouette = calinski_harabasz = davies_bouldin = -1

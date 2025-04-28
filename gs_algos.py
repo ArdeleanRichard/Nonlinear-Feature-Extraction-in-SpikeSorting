@@ -10,6 +10,15 @@ import kmapper as km
 from sklearn.cluster import DBSCAN, KMeans
 
 
+# for trimap error:
+# #Change this:
+# # import pkg_resources
+# # __version__ = pkg_resources.get_distribution("trimap").version
+# #To this:
+# from importlib.metadata import version
+# __version = version("trimap")
+
+
 class DiffusionMapWrapper:
     def __init__(self, n_evecs=2, alpha=0.5, **kwargs):
         self.model = dm.DiffusionMap.from_sklearn(n_evecs=n_evecs, alpha=alpha, **kwargs)
@@ -105,26 +114,26 @@ def load_algorithms_fe():
         # },
         #
         #
-        "umap": {
-            "estimator": UMAP,
-            "param_grid": {
-                "n_neighbors": 10,
-                "min_dist": 0.05,
-                "metric": "chebyshev",
-                "n_epochs": 500,
-                "n_components": 2,
-                "n_jobs": 1,
-            },
-        },
-
-
-        "kpca": {
-            "estimator": KernelPCA,
-            "param_grid": {
-                "n_components": 2,
-                "kernel": "rbf",
-                "gamma": 0.1},
-        },
+        # "umap": {
+        #     "estimator": UMAP,
+        #     "param_grid": {
+        #         "n_neighbors": 10,
+        #         "min_dist": 0.05,
+        #         "metric": "chebyshev",
+        #         "n_epochs": 500,
+        #         "n_components": 2,
+        #         "n_jobs": 1,
+        #     },
+        # },
+        #
+        #
+        # "kpca": {
+        #     "estimator": KernelPCA,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "kernel": "rbf",
+        #         "gamma": 0.1},
+        # },
 
 
         "tsne": {
@@ -152,62 +161,66 @@ def load_algorithms_fe():
                 "metric": False
             },
         },
+    #
+    #     # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
+    #     "spectral": {
+    #         "estimator": SpectralEmbedding,
+    #         "param_grid": {
+    #             "n_components": 2,
+    #             "affinity": "nearest_neighbors"
+    #         },
+    #     },
+    #
+    #     # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
+    #     "diffusion_map": {
+    #         "estimator": DiffusionMapWrapper,
+    #         "param_grid": {
+    #             "n_evecs": 2,
+    #             "alpha": 0.5
+    #         },
+    #     },
+    #
+    #
+    #     "som": {
+    #         "estimator": SOMWrapper,
+    #         "param_grid": {
+    #             "x": 10,
+    #             "y": 10,
+    #             "sigma": 1.0,
+    #             "learning_rate": 0.5,
+    #             "num_iteration": 1000
+    #         },
+    #     },
+    #
+    #     # PHATE (phate) - Heat diffusion based embedding preserving local and global structure, popular in bioinformatics.
+    #     "phate": {
+    #         "estimator": PHATEWrapper,
+    #         "param_grid": {
+    #             "n_components": 2
+    #         },
+    #     },
+    #
+    #     # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
+    #     "trimap": {
+    #         "estimator": TriMapWrapper,
+    #         "param_grid": {
+    #             "n_dims": 2
+    #         },
+    #     },
+    #
+    #     # Kepler Mapper (kmapper) = Topological data analysis Mapper algorithm producing simplicial complexes.
+    #     "kmapper": { # kepler-mapper.scikit-tda.org
+    #         "estimator": KMapperWrapper,
+    #         "param_grid": {
+    #             "n_cubes": 10,
+    #             "clusterer_eps": 0.5,
+    #             "clusterer_min_samples": 5
+    #         },
+    #     },
 
-        # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
-        "spectral": {
-            "estimator": SpectralEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "affinity": "nearest_neighbors"
-            },
-        },
-
-        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
-        "diffusion_map": {
-            "estimator": DiffusionMapWrapper,
-            "param_grid": {
-                "n_evecs": 2,
-                "alpha": 0.5
-            },
-        },
 
 
-        "som": {
-            "estimator": SOMWrapper,
-            "param_grid": {
-                "x": 10,
-                "y": 10,
-                "sigma": 1.0,
-                "learning_rate": 0.5,
-                "num_iteration": 1000
-            },
-        },
 
-        # PHATE (phate) - Heat diffusion based embedding preserving local and global structure, popular in bioinformatics.
-        "phate": {
-            "estimator": PHATEWrapper,
-            "param_grid": {
-                "n_components": 2
-            },
-        },
-
-        # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
-        "trimap": {
-            "estimator": TriMapWrapper,
-            "param_grid": {
-                "n_dims": 2
-            },
-        },
-
-        # Kepler Mapper (kmapper) = Topological data analysis Mapper algorithm producing simplicial complexes.
-        "kmapper": { # kepler-mapper.scikit-tda.org
-            "estimator": KMapperWrapper,
-            "param_grid": {
-                "n_cubes": 10,
-                "clusterer_eps": 0.5,
-                "clusterer_min_samples": 5
-            },
-        },
     }
     return algorithms
 
