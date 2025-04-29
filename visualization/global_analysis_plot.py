@@ -79,7 +79,8 @@ def plot_box(title, data, METHODS, conditions):
     #              color='black', weight='roman', size='x-small')
 
     plt.savefig(f"./figures/global/boxplot_{title}_global_analysis.svg")
-    plt.show()
+    plt.savefig(f"./figures/global/boxplot_{title}_global_analysis.png")
+    plt.close()
 
 
 def filter_columns_and_save(input_csv, columns):
@@ -98,10 +99,11 @@ columns = ["adjusted_rand_score","adjusted_mutual_info_score","purity_score","si
 
 pca =               filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns)
 ica =               filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns)
-isomap =            filter_columns_and_save(f"./results/isomap_kmeans.csv", columns=columns)
+isomap =            filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns)
 umap =            filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns)
 ae_normal =         np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
-vade =              filter_columns_and_save(f"./results/vade.csv", columns=columns)
+tsne =              filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns)
+lle =              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns)
 
 # pca =               np.loadtxt(f"./results/pca.csv", dtype=float, delimiter=",")
 # ica =               np.loadtxt(f"./results/ica.csv", dtype=float, delimiter=",")
@@ -116,7 +118,7 @@ vade =              filter_columns_and_save(f"./results/vade.csv", columns=colum
 
 
 # T-TESTING
-METHODS = ['PCA', 'ICA', 'Isomap', 'UMAP','AE', "VaDE"]
+METHODS = ['PCA', 'ICA', 'Isomap', 'UMAP','AE', "t-SNE", "LLE"]
 metric_names = ['ARI', 'AMI', 'Purity', 'DBS', 'CHS', 'SS']
 for metric_id, metric_name in enumerate(metric_names):
     data = []
@@ -126,7 +128,8 @@ for metric_id, metric_name in enumerate(metric_names):
     data.append(isomap[:, metric_id].tolist())
     data.append(umap[:, metric_id].tolist())
     data.append(ae_normal[:, metric_id].tolist())
-    data.append(vade[:, metric_id].tolist())
+    data.append(tsne[:, metric_id].tolist())
+    data.append(lle[:, metric_id].tolist())
 
 
     ttest_matrix = np.zeros((len(METHODS), len(METHODS)), dtype=float)
@@ -164,5 +167,6 @@ for metric_id, metric_name in enumerate(metric_names):
     #sn.heatmap(df_cm, annot=labels3, annot_kws={'va': 'center'}, fmt="", cbar=False, cmap='jet')
     #sn.heatmap(df_cm, annot=labels2, annot_kws={'va': 'top'}, fmt="", cbar=False, cmap='jet', linewidths=0.1, linecolor='black')
     plt.savefig(f'./figures/global/confusion_{metric_name}_global_analysis.svg')
+    plt.close()
 
     plot_box(metric_name, data, METHODS, [metric_name])

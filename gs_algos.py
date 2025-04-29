@@ -134,24 +134,24 @@ def load_algorithms_fe():
         #         "kernel": "rbf",
         #         "gamma": 0.1},
         # },
-
-
-        "tsne": {
-            "estimator": TSNE,
-            "param_grid": {
-                "n_components": 2,
-                "perplexity": 30,
-                "n_iter": 1000},
-        },
-
-        # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
-        "lle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "method": "standard"
-            },
-        },
+        #
+        #
+        # "tsne": {
+        #     "estimator": TSNE,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "perplexity": 30,
+        #         "max_iter": 1000},
+        # },
+        #
+        # # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
+        # "lle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "method": "standard"
+        #     },
+        # },
 
         # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
         "mds": {
