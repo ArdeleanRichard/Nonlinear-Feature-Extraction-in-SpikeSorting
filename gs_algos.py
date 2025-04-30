@@ -159,7 +159,7 @@ def load_algorithms_fe():
             "estimator": MDS,
             "param_grid": {
                 "n_components": 2,
-                "metric": False
+                "metric": True
             },
         },
 
