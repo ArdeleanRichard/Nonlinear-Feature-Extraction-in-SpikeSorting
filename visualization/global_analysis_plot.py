@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib.patches import Polygon
 import pandas as pd
-from scipy.stats import stats
+from scipy import stats
 
 from constants import LABEL_COLOR_MAP_SMALLER
 import seaborn as sn
@@ -104,6 +104,8 @@ umap =            filter_columns_and_save(f"./results/umap_kmeans.csv", columns=
 ae_normal =         np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
 tsne =              filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns)
 lle =              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns)
+kpca =              filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns)
+trimap =              filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns)
 
 # pca =               np.loadtxt(f"./results/pca.csv", dtype=float, delimiter=",")
 # ica =               np.loadtxt(f"./results/ica.csv", dtype=float, delimiter=",")
@@ -118,7 +120,7 @@ lle =              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=
 
 
 # T-TESTING
-METHODS = ['PCA', 'ICA', 'Isomap', 'UMAP','AE', "t-SNE", "LLE"]
+METHODS = ['PCA', 'ICA', 'Isomap', 'KPCA', 'AE', 'UMAP', "t-SNE", "LLE", "Trimap"]
 metric_names = ['ARI', 'AMI', 'Purity', 'DBS', 'CHS', 'SS']
 for metric_id, metric_name in enumerate(metric_names):
     data = []
@@ -126,10 +128,12 @@ for metric_id, metric_name in enumerate(metric_names):
     data.append(pca[:, metric_id].tolist())
     data.append(ica[:, metric_id].tolist())
     data.append(isomap[:, metric_id].tolist())
-    data.append(umap[:, metric_id].tolist())
+    data.append(kpca[:, metric_id].tolist())
     data.append(ae_normal[:, metric_id].tolist())
+    data.append(umap[:, metric_id].tolist())
     data.append(tsne[:, metric_id].tolist())
     data.append(lle[:, metric_id].tolist())
+    data.append(trimap[:, metric_id].tolist())
 
 
     ttest_matrix = np.zeros((len(METHODS), len(METHODS)), dtype=float)

@@ -1,4 +1,5 @@
 import numpy as np
+from sklearn import manifold
 from sklearn.decomposition import KernelPCA
 from sklearn.manifold import TSNE, Isomap, LocallyLinearEmbedding, MDS, SpectralEmbedding
 from umap import UMAP
@@ -75,8 +76,8 @@ class KMapperWrapper:
         self.cover = km.Cover(n_cubes=n_cubes)
         self.clusterer = DBSCAN(eps=clusterer_eps, min_samples=clusterer_min_samples)
 
-    def fit_transform(self, X, projection=[0,1]):
-        proj = self.mapper.fit_transform(X, projection=projection)
+    def fit_transform(self, X):
+        proj = self.mapper.fit_transform(X, projection=manifold.TSNE)
         # map produces graph but return the low-dim projection
         return proj
 
@@ -154,13 +155,13 @@ def load_algorithms_fe():
         # },
         #
         # # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
-        # "mds": {
-        #     "estimator": MDS,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "metric": False
-        #     },
-        # },
+        "mds": {
+            "estimator": MDS,
+            "param_grid": {
+                "n_components": 2,
+                "metric": False
+            },
+        },
 
         # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
         # "spectral": {
@@ -200,7 +201,7 @@ def load_algorithms_fe():
         #     },
         # },
     #
-    #     # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
+        # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
     #     "trimap": {
     #         "estimator": TriMapWrapper,
     #         "param_grid": {
@@ -208,8 +209,8 @@ def load_algorithms_fe():
     #         },
     #     },
     #
-    #     # Kepler Mapper (kmapper) = Topological data analysis Mapper algorithm producing simplicial complexes.
-    #     "kmapper": { # kepler-mapper.scikit-tda.org
+    #     # Kepler Mapper (kmapper) = Topological data analysis Mapper algorithm producing simplicial complexes. kepler-mapper.scikit-tda.org
+    #     "kmapper": {
     #         "estimator": KMapperWrapper,
     #         "param_grid": {
     #             "n_cubes": 10,
