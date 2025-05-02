@@ -114,20 +114,6 @@ def load_algorithms_fe():
         #     },
         # },
         #
-        #
-        # "umap": {
-        #     "estimator": UMAP,
-        #     "param_grid": {
-        #         "n_neighbors": 10,
-        #         "min_dist": 0.05,
-        #         "metric": "chebyshev",
-        #         "n_epochs": 500,
-        #         "n_components": 2,
-        #         "n_jobs": 1,
-        #     },
-        # },
-        #
-        #
         # "kpca": {
         #     "estimator": KernelPCA,
         #     "param_grid": {
@@ -153,15 +139,41 @@ def load_algorithms_fe():
         #         "method": "standard"
         #     },
         # },
-        #
-        # # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
-        "mds": {
-            "estimator": MDS,
+
+        "mlle": {
+            "estimator": LocallyLinearEmbedding,
             "param_grid": {
                 "n_components": 2,
-                "metric": True
+                "n_neighbors": 10,  # n_neighbors > n_components
+                "method": "modified"
             },
         },
+
+        "hlle": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "n_neighbors": 10,  # n_neighbors > n_components * (n_components + 3) / 2.
+                "method": "hessian"
+            },
+        },
+
+        "ltsa": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "method": "ltsa"
+            },
+        },
+
+        # # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
+        # "mds": {
+        #     "estimator": MDS,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "metric": True
+        #     },
+        # },
 
         # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
         # "spectral": {
@@ -171,7 +183,28 @@ def load_algorithms_fe():
         #         "affinity": "nearest_neighbors"
         #     },
         # },
-    #
+
+
+
+
+
+
+
+        # "umap": {
+        #     "estimator": UMAP,
+        #     "param_grid": {
+        #         "n_neighbors": 10,
+        #         "min_dist": 0.05,
+        #         "metric": "chebyshev",
+        #         "n_epochs": 500,
+        #         "n_components": 2,
+        #         "n_jobs": 1,
+        #     },
+        # },
+        #
+
+
+
         # # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
         # "diffusion_map": {
         #     "estimator": DiffusionMapWrapper,
@@ -218,6 +251,8 @@ def load_algorithms_fe():
     #             "clusterer_min_samples": 5
     #         },
     #     },
+
+
 
 
 
