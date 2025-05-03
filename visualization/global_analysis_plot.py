@@ -170,14 +170,16 @@ if __name__ == "__main__":
         'PCA':              filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns),
         'ICA':              filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns),
         'Isomap':           filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns),
+        "t-SNE":            filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns),
         'KPCA':             filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns),
         'AE':               np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=","),
-        'UMAP':             filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns),
-        "t-SNE":            filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns),
         "LLE":              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns),
-        "Trimap":           filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns),
+        "MLLE":              filter_columns_and_save(f"./results/mlle_kmeans.csv", columns=columns),
+        "HLLE":              filter_columns_and_save(f"./results/hlle_kmeans.csv", columns=columns),
         "Keppler Mapper":   filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns),
         "MDS":              filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns),
+        'UMAP':             filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns),
+        "Trimap":           filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns),
     }
 
     main(methods_dict)
