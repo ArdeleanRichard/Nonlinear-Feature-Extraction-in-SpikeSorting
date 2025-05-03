@@ -11,7 +11,7 @@ import seaborn as sn
 
 os.chdir("../")
 
-def plot_box(title, data, METHODS, conditions):
+def plot_box(title, data, method_names, conditions):
     fig, ax1 = plt.subplots(figsize=(10, 6))
     # fig.canvas.manager.set_window_title('A Boxplot Example')
     fig.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
@@ -57,7 +57,7 @@ def plot_box(title, data, METHODS, conditions):
         med = bp['medians'][i]
 
         # Alternate among colors
-        ax1.add_patch(Polygon(box_coords, facecolor=LABEL_COLOR_MAP_SMALLER[i % len(METHODS)]))
+        ax1.add_patch(Polygon(box_coords, facecolor=LABEL_COLOR_MAP_SMALLER[i % len(method_names)]))
 
         ax1.plot(np.average(med.get_xdata()), np.average(data[i]), color='w', marker='*', markeredgecolor='k')
 
@@ -66,7 +66,7 @@ def plot_box(title, data, METHODS, conditions):
     # top = 1.1
     # bottom = 0
     # ax1.set_ylim(bottom, top)
-    ax1.set_xticklabels(np.repeat(METHODS, len(conditions)), rotation=0, fontsize=8)
+    ax1.set_xticklabels(np.repeat(method_names, len(conditions)), rotation=0, fontsize=8)
 
     # Due to the Y-axis scale being different across samples, it can be
     # hard to compare differences in medians across the samples. Add upper
@@ -97,12 +97,12 @@ def filter_columns_and_save(input_csv, columns):
 
 
 
-def compute_ttest(data):
-    ttest_matrix = np.zeros((len(METHODS), len(METHODS)), dtype=float)
-    labels = np.zeros((len(METHODS), len(METHODS)), dtype=object)
-    for m1_id, m1 in enumerate(METHODS):
-        for m2_id, m2 in enumerate(METHODS):
-            result = stats.ttest_ind(data[m1_id], data[m2_id], equal_var=True)[1] * (len(METHODS) * (len(METHODS) - 1) / 2)
+def compute_ttest(data, method_names):
+    ttest_matrix = np.zeros((len(method_names), len(method_names)), dtype=float)
+    labels = np.zeros((len(method_names), len(method_names)), dtype=object)
+    for m1_id, m1 in enumerate(method_names):
+        for m2_id, m2 in enumerate(method_names):
+            result = stats.ttest_ind(data[m1_id], data[m2_id], equal_var=True)[1] * (len(method_names) * (len(method_names) - 1) / 2)
             if result > 0.05:
                 ttest_matrix[m1_id][m2_id] = -1
                 labels[m1_id][m2_id] = ""
@@ -116,8 +116,8 @@ def compute_ttest(data):
     return ttest_matrix, labels
 
 
-def plot_ttest_matrix(metric_name, ttest_matrix, labels):
-    df_cm = pd.DataFrame(ttest_matrix, index=METHODS, columns=METHODS)
+def plot_ttest_matrix(metric_name, method_names, ttest_matrix, labels):
+    df_cm = pd.DataFrame(ttest_matrix, index=method_names, columns=method_names)
     plt.figure(figsize=(11, 11))
     pallete = sn.color_palette("magma", as_cmap=True)
     sn.heatmap(df_cm, annot=False, fmt="", cmap=pallete)
@@ -126,43 +126,35 @@ def plot_ttest_matrix(metric_name, ttest_matrix, labels):
     plt.close()
 
 
-def main():
+def main(methods_dict):
     for metric_id, metric_name in enumerate(metric_names):
         data = []
-
-        data.append(pca[:, metric_id].tolist())
-        data.append(ica[:, metric_id].tolist())
-        data.append(isomap[:, metric_id].tolist())
-        data.append(kpca[:, metric_id].tolist())
-        data.append(ae_normal[:, metric_id].tolist())
-        data.append(umap[:, metric_id].tolist())
-        data.append(tsne[:, metric_id].tolist())
-        data.append(lle[:, metric_id].tolist())
-        data.append(trimap[:, metric_id].tolist())
-        data.append(kmapper[:, metric_id].tolist())
+        method_names = list(methods_dict.keys())
+        for method_name in method_names:
+            method_data = methods_dict[method_name]
+            data.append(method_data[:, metric_id].tolist())
 
         # np.savetxt(f"./figures/global/ttest_{metric_name}.csv", np.array(ttest_matrix), delimiter=",")
 
         # T-TESTING
-        ttest_matrix, labels = compute_ttest(data)
-        plot_ttest_matrix(metric_name, ttest_matrix, labels)
+        ttest_matrix, labels = compute_ttest(data, method_names)
+        plot_ttest_matrix(metric_name, method_names, ttest_matrix, labels)
 
-        plot_box(metric_name, data, METHODS, [metric_name])
+        plot_box(metric_name, data, method_names, [metric_name])
 
 
 if __name__ == "__main__":
-    columns = ["adjusted_rand_score", "adjusted_mutual_info_score", "purity_score", "silhouette_score", "calinski_harabasz_score", "davies_bouldin_score"]
-
-    pca = filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns)
-    ica = filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns)
-    isomap = filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns)
-    umap = filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns)
-    ae_normal = np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
-    tsne = filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns)
-    lle = filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns)
-    kpca = filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns)
-    trimap = filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns)
-    kmapper = filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns)
+    # pca = filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns)
+    # ica = filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns)
+    # isomap = filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns)
+    # umap = filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns)
+    # ae_normal = np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
+    # tsne = filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns)
+    # lle = filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns)
+    # kpca = filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns)
+    # trimap = filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns)
+    # kmapper = filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns)
+    # mds = filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns)
 
     # pca =               np.loadtxt(f"./results/pca.csv", dtype=float, delimiter=",")
     # ica =               np.loadtxt(f"./results/ica.csv", dtype=float, delimiter=",")
@@ -171,7 +163,21 @@ if __name__ == "__main__":
     # vade =              np.loadtxt(f"./results/vade.csv", dtype=float, delimiter=",")
     # metric_names = ['ARI', 'AMI', 'Purity', 'DBS', 'CHS', 'SS']
 
-    METHODS = ['PCA', 'ICA', 'Isomap', 'KPCA', 'AE', 'UMAP', "t-SNE", "LLE", "Trimap", "Keppler Mapper"]
+    columns = ["adjusted_rand_score", "adjusted_mutual_info_score", "purity_score", "silhouette_score", "calinski_harabasz_score", "davies_bouldin_score"]
     metric_names = ['ARI', 'AMI', 'Purity', 'SS', 'CHS', 'DBS']
 
-    main()
+    methods_dict = {
+        'PCA':              filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns),
+        'ICA':              filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns),
+        'Isomap':           filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns),
+        'KPCA':             filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns),
+        'AE':               np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=","),
+        'UMAP':             filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns),
+        "t-SNE":            filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns),
+        "LLE":              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns),
+        "Trimap":           filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns),
+        "Keppler Mapper":   filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns),
+        "MDS":              filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns),
+    }
+
+    main(methods_dict)

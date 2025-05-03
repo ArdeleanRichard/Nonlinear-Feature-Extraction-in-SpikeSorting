@@ -140,21 +140,22 @@ def load_algorithms_fe():
         #     },
         # },
 
-        "mlle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "n_neighbors": 10,  # n_neighbors > n_components
-                "method": "modified"
-            },
-        },
+        # "mlle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "n_neighbors": 10,  # n_neighbors > n_components
+        #         "method": "modified"
+        #     },
+        # },
 
         "hlle": {
             "estimator": LocallyLinearEmbedding,
             "param_grid": {
                 "n_components": 2,
                 "n_neighbors": 10,  # n_neighbors > n_components * (n_components + 3) / 2.
-                "method": "hessian"
+                "method": "hessian",
+                "eigen_solver": 'dense', # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
             },
         },
 
