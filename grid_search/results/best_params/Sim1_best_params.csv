@@ -1,2 +1,2 @@
-dataset,fe_algorithm,clustering_algorithm,normalization,adjusted_rand_score,adjusted_mutual_info_score,purity_score,silhouette_score,calinski_harabasz_score,davies_bouldin_score,norm_davies_bouldin_score,average_score,fe_n_components,fe_n_neighbors,fe_method,clust_n_clusters
-Sim1,mlle,kmeans,,0.7831889283995296,0.8795512295847315,0.8332500832500832,0.1736526347075399,2394.309511248971,1.6853537445691145,0.37239041672718526,0.6084066585338139,2,50,modified,17
+dataset,fe_algorithm,clustering_algorithm,normalization,adjusted_rand_score,adjusted_mutual_info_score,purity_score,silhouette_score,calinski_harabasz_score,davies_bouldin_score,norm_davies_bouldin_score,average_score,fe_n_components,fe_n_neighbors,fe_method,fe_eigen_solver,clust_n_clusters
+Sim1,hlle,kmeans,standard,0.22855840383741788,0.5552973906717672,0.515984015984016,0.08182919600906861,543.6705120799894,3.664541701844335,0.21438333365196527,0.31921046803084696,2,100,hessian,dense,17
