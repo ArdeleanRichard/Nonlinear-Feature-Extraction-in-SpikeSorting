@@ -176,6 +176,7 @@ if __name__ == "__main__":
         "LLE":              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns),
         "MLLE":              filter_columns_and_save(f"./results/mlle_kmeans.csv", columns=columns),
         "HLLE":              filter_columns_and_save(f"./results/hlle_kmeans.csv", columns=columns),
+        "LTSA":              filter_columns_and_save(f"./results/ltsa_kmeans.csv", columns=columns),
         "Keppler Mapper":   filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns),
         "MDS":              filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns),
         'UMAP':             filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns),
