@@ -133,42 +133,43 @@ def load_algorithms_fe():
         #      },
         # },
         #
-        # # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
-        # "lle": {
-        #     "estimator": LocallyLinearEmbedding,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "method": "standard"
-        #     },
-        # },
+        # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
+        "lle": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "n_neighbors": 70,
+                "method": "standard"
+            },
+        },
 
-        # "mlle": {
-        #     "estimator": LocallyLinearEmbedding,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "n_neighbors": 10,  # n_neighbors > n_components
-        #         "method": "modified"
-        #     },
-        # },
+        "mlle": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "n_neighbors": 50,  # n_neighbors > n_components
+                "method": "modified"
+            },
+        },
 
-        # "hlle": {
-        #     "estimator": LocallyLinearEmbedding,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "n_neighbors": 10,  # n_neighbors > n_components * (n_components + 3) / 2.
-        #         "method": "hessian",
-        #         "eigen_solver": 'dense', # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
-        #     },
-        # },
+        "hlle": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "n_neighbors": 10,  # n_neighbors > n_components * (n_components + 3) / 2.
+                "method": "hessian",
+                "eigen_solver": 'dense', # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
+            },
+        },
 
-        # "ltsa": {
-        #     "estimator": LocallyLinearEmbedding,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "method": "ltsa",
-        #         "eigen_solver": 'dense',  # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
-        #     },
-        # },
+        "ltsa": {
+            "estimator": LocallyLinearEmbedding,
+            "param_grid": {
+                "n_components": 2,
+                "method": "ltsa",
+                "eigen_solver": 'dense',  # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
+            },
+        },
 
         # # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
         # "mds": {
