@@ -1,2 +1,0 @@
-dataset,adjusted_rand_score,adjusted_mutual_info_score,purity_score,silhouette_score,calinski_harabasz_score,davies_bouldin_score,norm_davies_bouldin_score
-Sim1,0.0002075394929251219,0.0003866577640634354,0.234015984015984,-0.025596045250528342,1.107170468936355,62.65753509484731,0.01570905939901754

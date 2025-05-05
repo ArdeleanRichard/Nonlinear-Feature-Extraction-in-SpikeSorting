@@ -57,4 +57,5 @@ LABEL_COLOR_MAP_SMALLER = {
                    10: 'firebrick',
                    11: 'brown',
                    12: 'maroon',
+                   13: 'wheat',
                    }
