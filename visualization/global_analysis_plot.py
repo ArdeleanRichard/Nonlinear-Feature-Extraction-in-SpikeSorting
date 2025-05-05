@@ -9,6 +9,8 @@ from scipy import stats
 from constants import LABEL_COLOR_MAP_SMALLER
 import seaborn as sn
 
+from visualization.global_analysis_utils import filter_columns_and_save
+
 os.chdir("../")
 
 def plot_box(title, data, method_names, conditions):
@@ -82,18 +84,6 @@ def plot_box(title, data, method_names, conditions):
     plt.savefig(f"./figures/global/boxplot_{title}_global_analysis.png")
     plt.close()
 
-
-def filter_columns_and_save(input_csv, columns):
-    df = pd.read_csv(input_csv)
-
-    df_filtered = df[columns]
-
-    base_name, ext = os.path.splitext(input_csv)
-    output_csv = f"{base_name}_simple{ext}"
-
-    df_filtered.to_csv(output_csv, index=False, header=False)
-
-    return df_filtered.to_numpy()
 
 
 

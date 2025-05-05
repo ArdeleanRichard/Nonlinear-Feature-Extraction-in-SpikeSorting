@@ -68,7 +68,7 @@ def aggregate_by_dataset(sim_nr, dfs):
         result_df = result_df.rename(columns=column_renames)
 
         result_df = result_df.drop(columns=['dataset'])
-        result_df.to_csv(f"sim{sim_nr}.csv", index=False)
+        result_df.to_csv(f"../paper/tables/sim{sim_nr}.csv", index=False)
 
         print("Aggregation complete: saved to aggregated_results.csv")
     else:
