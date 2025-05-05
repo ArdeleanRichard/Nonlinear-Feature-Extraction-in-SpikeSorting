@@ -134,23 +134,23 @@ def load_algorithms_fe():
         # },
         #
         # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
-        "lle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "n_neighbors": 70,
-                "method": "standard"
-            },
-        },
-
-        "mlle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "n_neighbors": 50,  # n_neighbors > n_components
-                "method": "modified"
-            },
-        },
+        # "lle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "n_neighbors": 70,
+        #         "method": "standard"
+        #     },
+        # },
+        #
+        # "mlle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "n_neighbors": 50,  # n_neighbors > n_components
+        #         "method": "modified"
+        #     },
+        # },
 
         # "hlle": {
         #     "estimator": LocallyLinearEmbedding,
@@ -210,14 +210,15 @@ def load_algorithms_fe():
 
 
 
-        # # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
-        # "diffusion_map": {
-        #     "estimator": DiffusionMapWrapper,
-        #     "param_grid": {
-        #         "n_evecs": 2,
-        #         "alpha": 0.5
-        #     },
-        # },
+        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
+        "diffusion_map": {
+            "estimator": DiffusionMapWrapper,
+            "param_grid": {
+                "n_evecs": 2,
+                "alpha": 0.5,
+                "k": 50,
+            },
+        },
     #
     #
     #     "som": {
