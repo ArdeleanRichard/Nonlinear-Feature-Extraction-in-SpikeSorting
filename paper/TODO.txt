@@ -2,6 +2,4 @@ normalization impact?
 real data?
 add HLLE/LTSA/MDS in supplementary?
 
-get last diffusion 38, 65, 80
-
 add figs, add all figs, add fig stats
