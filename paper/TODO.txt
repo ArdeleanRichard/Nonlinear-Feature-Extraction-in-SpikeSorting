@@ -1,0 +1,5 @@
+normalization?
+real data?
+rerun autoencoder!
+get spaces for pca/ica/isomap on 53, 67, 81, 86
+get last diffusion.
