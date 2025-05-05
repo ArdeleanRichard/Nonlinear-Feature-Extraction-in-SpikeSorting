@@ -8,11 +8,11 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_ran
 from sklearn.metrics.cluster import contingency_matrix
 import matplotlib
 
-from gs_algos import load_algorithms_fe, load_algorithms_clust
+from algos import load_algorithms_fe, load_algorithms_clust
 
 matplotlib.use('Agg')
 from constants import DIR_RESULTS, DIR_FIGURES
-from gs_datasets import load_all_data
+from datasets import load_all_data
 from visualization import scatter_plot
 
 

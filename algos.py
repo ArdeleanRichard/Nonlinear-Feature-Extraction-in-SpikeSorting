@@ -210,63 +210,6 @@ def load_algorithms_fe():
 
 
 
-<<<<<<< HEAD:gs_algos.py
-        # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
-        # "spectral": {
-        #     "estimator": SpectralEmbedding,
-        #     "param_grid": {
-        #         "n_components": 2,
-        #         "affinity": "nearest_neighbors"
-        #     },
-        # },
-    #
-        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
-        "diffusion_map": {
-            "estimator": DiffusionMapWrapper,
-            "param_grid": {
-                "n_evecs": 2,
-                "alpha": 0.5
-            },
-        },
-
-
-        "som": {
-            "estimator": SOMWrapper,
-            "param_grid": {
-                "x": 10,
-                "y": 10,
-                "sigma": 1.0,
-                "learning_rate": 0.5,
-                "num_iteration": 1000
-            },
-        },
-
-        # PHATE (phate) - Heat diffusion based embedding preserving local and global structure, popular in bioinformatics.
-        "phate": {
-            "estimator": PHATEWrapper,
-            "param_grid": {
-                "n_components": 2
-            },
-        },
-
-        # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
-        "trimap": {
-            "estimator": TriMapWrapper,
-            "param_grid": {
-                "n_dims": 2
-            },
-        },
-
-        # Kepler Mapper (kmapper) = Topological data analysis Mapper algorithm producing simplicial complexes.
-        "kmapper": { # kepler-mapper.scikit-tda.org
-            "estimator": KMapperWrapper,
-            "param_grid": {
-                "n_cubes": 10,
-                "clusterer_eps": 0.5,
-                "clusterer_min_samples": 5
-            },
-        },
-=======
         # # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
         # "diffusion_map": {
         #     "estimator": DiffusionMapWrapper,
@@ -313,7 +256,6 @@ def load_algorithms_fe():
     #             "clusterer_min_samples": 5
     #         },
     #     },
->>>>>>> 3a789491865d467ecec116f105fdef0a4ea7403b:algos.py
 
 
 
