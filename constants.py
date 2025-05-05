@@ -44,19 +44,23 @@ LABEL_COLOR_MAP = {-1: 'gray',
 
 
 LABEL_COLOR_MAP_SMALLER = {
-                   0: 'lightskyblue',
-                   1: 'deepskyblue',
-                   2: 'violet',
-                   3: 'lightcoral',
-                   4: 'coral',
-                   5: 'darksalmon',
-                   6: 'salmon',
-                   7: 'lightsalmon',
-                   8: 'tomato',
-                   9: 'indianred',
-                   10: 'firebrick',
-                   11: 'brown',
-                   12: 'maroon',
-                   13: 'wheat',
-                   14: 'turquoise',
-                   }
+    0: 'lightskyblue',     # blue 1
+    1: 'deepskyblue',      # blue 2
+    2: 'dodgerblue',       # blue 3
+
+    3: 'lightgreen',       # green 1
+    4: 'mediumseagreen',   # green 2
+    5: 'seagreen',         # green 3
+
+    6: 'lightcoral',       # red group
+    7: 'coral',
+    8: 'darksalmon',
+    9: 'salmon',
+    10: 'lightsalmon',
+    11: 'tomato',
+    12: 'indianred',
+    13: 'firebrick',
+    14: 'brown',
+    15: 'maroon',
+    16: 'wheat'
+}

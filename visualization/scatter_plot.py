@@ -4,7 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn import preprocessing
 from sklearn.decomposition import PCA
 
-from visualization.label_map import LABEL_COLOR_MAP
+from visualization.label_map import LABEL_COLOR_MAP, LABEL_COLOR_MAP2
 
 
 def plot(title, X, labels=None, plot=True, marker='o', alpha=1):
@@ -58,7 +58,7 @@ def plot(title, X, labels=None, plot=True, marker='o', alpha=1):
 
 
 
-def plot2D(title, X, labels=None, plot=True, marker='o', alpha=1):
+def plot2D(title, X, labels=None, plot=True, marker='o', alpha=1, LABEL_COLOR_MAP=LABEL_COLOR_MAP):
     """
     Plots the dataset with or without labels
     :param title: string - the title of the plot
@@ -126,3 +126,16 @@ def plot_grid(title, X, pn, labels=None, plot=True, marker='o'):
             ax.scatter(X[:, 0], X[:, 1], X[:, 2], marker=marker, c=label_color, s=25)
             # plt.grid(True)
         # fig.savefig("cevajeg.svg", format='svg', dpi=1200)
+
+
+if __name__ == "__main__":
+    from dataset_parsing import simulations_dataset as ds
+    import os
+    os.chdir("../")
+
+    for simulation_number in [53, 81, 67, 86]:
+        X, y = ds.get_dataset_simulation(simNr=simulation_number)
+        plot2D(f"Sim{simulation_number} with PCA and ground truth labels", X, labels=y, plot=True, marker='o', alpha=1, LABEL_COLOR_MAP=LABEL_COLOR_MAP2)
+        plt.savefig(f"./paper/figures/fig2_data/Sim{simulation_number}.png")
+        plt.savefig(f"./paper/figures/fig2_data/Sim{simulation_number}.svg")
+        plt.close()
