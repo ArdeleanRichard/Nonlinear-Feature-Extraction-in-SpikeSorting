@@ -162,14 +162,14 @@ def load_algorithms_fe():
         #     },
         # },
 
-        "ltsa": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "method": "ltsa",
-                "eigen_solver": 'dense',  # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
-            },
-        },
+        # "ltsa": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "method": "ltsa",
+        #         "eigen_solver": 'dense',  # default arpack Error in determining null-space with ARPACK. Error message: 'Factor is exactly singular'. Note that eigen_solver='arpack' can fail when the weight matrix is singular or otherwise ill-behaved.
+        #     },
+        # },
 
         # # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
         # "mds": {
