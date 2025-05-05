@@ -166,21 +166,25 @@ if __name__ == "__main__":
     columns = ["adjusted_rand_score", "adjusted_mutual_info_score", "purity_score", "silhouette_score", "calinski_harabasz_score", "davies_bouldin_score"]
     metric_names = ['ARI', 'AMI', 'Purity', 'SS', 'CHS', 'DBS']
 
+    FOLDER = "./results/saved/"
     methods_dict = {
-        'PCA':              filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns),
-        'ICA':              filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns),
-        'Isomap':           filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns),
-        "t-SNE":            filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns),
-        'KPCA':             filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns),
-        'AE':               np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=","),
-        "LLE":              filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns),
-        "MLLE":              filter_columns_and_save(f"./results/mlle_kmeans.csv", columns=columns),
-        "HLLE":              filter_columns_and_save(f"./results/hlle_kmeans.csv", columns=columns),
-        "LTSA":              filter_columns_and_save(f"./results/ltsa_kmeans.csv", columns=columns),
-        "Keppler Mapper":   filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns),
-        "MDS":              filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns),
-        'UMAP':             filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns),
-        "Trimap":           filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns),
+        'PCA':                  filter_columns_and_save(f"{FOLDER}pca_kmeans.csv", columns=columns),
+        "MDS":                  filter_columns_and_save(f"{FOLDER}mds_kmeans.csv", columns=columns),
+        'ICA':                  filter_columns_and_save(f"{FOLDER}ica_kmeans.csv", columns=columns),
+        'KPCA':                 filter_columns_and_save(f"{FOLDER}kpca_kmeans.csv", columns=columns),
+        'SOM':                  filter_columns_and_save(f"{FOLDER}som_kmeans.csv", columns=columns),
+        'Isomap':               filter_columns_and_save(f"{FOLDER}/isomap_kmeans.csv", columns=columns),
+        "t-SNE":                filter_columns_and_save(f"{FOLDER}tsne_kmeans.csv", columns=columns),
+        'AE':                   np.loadtxt(f"{FOLDER}ae_normal.csv", dtype=float, delimiter=","),
+        "LLE":                  filter_columns_and_save(f"{FOLDER}lle_kmeans.csv", columns=columns),
+        "MLLE":                 filter_columns_and_save(f"{FOLDER}mlle_kmeans.csv", columns=columns),
+        # "HLLE":               filter_columns_and_save(f"{FOLDER}hlle_kmeans.csv", columns=columns),
+        # "LTSA":               filter_columns_and_save(f"{FOLDER}ltsa_kmeans.csv", columns=columns),
+        "Keppler Mapper":       filter_columns_and_save(f"{FOLDER}kmapper_kmeans.csv", columns=columns),
+        "Diffusion Map":        filter_columns_and_save(f"{FOLDER}diffusion_map_kmeans.csv", columns=columns),
+        "PHATE":                filter_columns_and_save(f"{FOLDER}phate_kmeans.csv", columns=columns),
+        'UMAP':                 filter_columns_and_save(f"{FOLDER}umap_kmeans.csv", columns=columns),
+        "Trimap":               filter_columns_and_save(f"{FOLDER}trimap_kmeans.csv", columns=columns),
     }
 
     main(methods_dict)

@@ -58,4 +58,5 @@ LABEL_COLOR_MAP_SMALLER = {
                    11: 'brown',
                    12: 'maroon',
                    13: 'wheat',
+                   14: 'turquoise',
                    }
