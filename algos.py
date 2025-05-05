@@ -1,6 +1,6 @@
 import numpy as np
 from sklearn import manifold
-from sklearn.decomposition import KernelPCA
+from sklearn.decomposition import KernelPCA, PCA, FastICA
 from sklearn.manifold import TSNE, Isomap, LocallyLinearEmbedding, MDS, SpectralEmbedding
 from torch.nn import Tanh, ReLU, LeakyReLU
 from umap import UMAP
@@ -210,30 +210,30 @@ def load_algorithms_fe():
         #     },
         # },
         #
-
-        "ae": {
-            "estimator": AutoEncoder,
-            "param_grid": {
-                "latent_dim": 2,
-                "hidden_dims": [70,40,20,10],
-                "epochs": 100,
-                "lr": 0.001,
-                "batch_size": 64,
-                "encoder_non_linearity": Tanh(),
-                "decoder_non_linearity": Tanh(),
-
-            },
-        },
-
-        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
-        # "diffusion_map": {
-        #     "estimator": DiffusionMapWrapper,
+        #
+        # "ae": {
+        #     "estimator": AutoEncoder,
         #     "param_grid": {
-        #         "n_evecs": 2,
-        #         "alpha": 0.5,
-        #         "k": 50,
+        #         "latent_dim": 2,
+        #         "hidden_dims": [70,40,20,10],
+        #         "epochs": 100,
+        #         "lr": 0.001,
+        #         "batch_size": 64,
+        #         "encoder_non_linearity": Tanh(),
+        #         "decoder_non_linearity": Tanh(),
+        #
         #     },
         # },
+
+        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
+        "diffusion_map": {
+            "estimator": DiffusionMapWrapper,
+            "param_grid": {
+                "n_evecs": 2,
+                "alpha": 0.5,
+                "k": 50,
+            },
+        },
     #
     #
     #     "som": {

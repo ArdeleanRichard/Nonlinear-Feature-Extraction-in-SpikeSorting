@@ -1,8 +1,7 @@
 normalization impact?
 real data?
 add HLLE/LTSA/MDS in supplementary?
-rerun autoencoder!
-get spaces for pca/ica/isomap on 53, 67, 81, 86
+
 get last diffusion 38, 65, 80
 
 add figs, add all figs, add fig stats
