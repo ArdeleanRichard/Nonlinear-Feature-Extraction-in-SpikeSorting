@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load both CSV files
-algo = "mlle"
+algo = "diffusion_map"
 df1 = pd.read_csv(f"../old/{algo}_kmeans.csv")
 df2 = pd.read_csv(f"../old1/{algo}_kmeans.csv")
 

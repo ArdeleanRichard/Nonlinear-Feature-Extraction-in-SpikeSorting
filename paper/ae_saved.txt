@@ -1,1 +1,3 @@
 https://github.com/ArdeleanRichard/Research-Projects/tree/main/Autoencoders/figures/autoencoder
+rerun autoencoder?
+normalization?
