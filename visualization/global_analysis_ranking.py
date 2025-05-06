@@ -72,7 +72,7 @@ if __name__ == "__main__":
         "MLLE":                 filter_columns_and_save(f"{FOLDER}mlle_kmeans.csv", columns=columns),
         # "HLLE":               filter_columns_and_save(f"{FOLDER}hlle_kmeans.csv", columns=columns),
         # "LTSA":               filter_columns_and_save(f"{FOLDER}ltsa_kmeans.csv", columns=columns),
-        "Keppler Mapper":       filter_columns_and_save(f"{FOLDER}kmapper_kmeans.csv", columns=columns),
+        # "Keppler Mapper":       filter_columns_and_save(f"{FOLDER}kmapper_kmeans.csv", columns=columns),
         'Isomap':               filter_columns_and_save(f"{FOLDER}/isomap_kmeans.csv", columns=columns),
         'Spectral embedding':   filter_columns_and_save(f"{FOLDER}/spectral_kmeans.csv", columns=columns),
         "t-SNE":                filter_columns_and_save(f"{FOLDER}tsne_kmeans.csv", columns=columns),

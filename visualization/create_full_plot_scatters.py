@@ -133,15 +133,21 @@ title_map = {
 }
 
 def main_scatter_plots():
-    # Define the mapping of positions to algorithms
-    # This is just an example - you'll need to customize this
+    # position_to_algorithm = {
+    #     (0, 0): "pca", (0, 1): "mds", (0, 2): "ica",
+    #     (1, 0): "kpca", (1, 1): "som", (1, 2): "ae",
+    #     (2, 0): "lle", (2, 1): "mlle", (2, 2): "kmapper",
+    #     (3, 0): "isomap", (3, 1): "spectral", (3, 2): "tsne",
+    #     (4, 0): "diffusion_map", (4, 1): "phate", (4, 2): "umap",
+    #     (5, 1): "trimap"
+    # }
+
     position_to_algorithm = {
         (0, 0): "pca", (0, 1): "mds", (0, 2): "ica",
         (1, 0): "kpca", (1, 1): "som", (1, 2): "ae",
-        (2, 0): "lle", (2, 1): "mlle", (2, 2): "kmapper",
-        (3, 0): "isomap", (3, 1): "spectral", (3, 2): "tsne",
-        (4, 0): "diffusion_map", (4, 1): "phate", (4, 2): "umap",
-        (5, 1): "trimap"
+        (2, 0): "lle", (2, 1): "mlle", (2, 2): "isomap",
+        (3, 0): "spectral", (3, 1): "tsne", (3, 2): "diffusion_map",
+        (4, 0): "phate", (4, 1): "umap", (4, 2): "trimap"
     }
 
     # Directory where your scatter plot files are located
@@ -175,7 +181,6 @@ def main_metrics():
     # Directory where your scatter plot files are located
     fig_folder = "../paper/figures/"
 
-
     for scatter_plot_folder in ["fig7_box"] :
 
         # Create the grid
@@ -188,7 +193,7 @@ def main_metrics():
             dpi=600,
             hspace=0.01,
             title_height_percent=10,
-            y=0.9,
+            y=1,
         )
 
         plt.close()
