@@ -183,6 +183,14 @@ def load_algorithms_fe():
         #     },
         # },
 
+        "nmds": {
+            "estimator": MDS,
+            "param_grid": {
+                "n_components": 2,
+                "metric": False
+            },
+        },
+
         # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
         # "spectral": {
         #     "estimator": SpectralEmbedding,

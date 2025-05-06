@@ -1,5 +1,3 @@
 normalization impact?
 real data?
 add HLLE/LTSA/MDS in supplementary?
-
-add figs, add all figs, add fig stats

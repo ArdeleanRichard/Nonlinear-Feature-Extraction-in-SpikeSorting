@@ -52,9 +52,9 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 X_copy = np.copy(X)
                 X_copy = data_normalisation(X_copy, norm_type="")
 
-                np.random.seed(42)
-                indices = np.random.permutation(len(X))
-                X, y_true = X[indices], y_true[indices]
+                # np.random.seed(42)
+                # indices = np.random.permutation(len(X))
+                # X, y_true = X[indices], y_true[indices]
 
                 fe_param_names = list(fe_details["param_grid"].keys())
                 clust_param_names = list(clust_details["param_grid"].keys())
@@ -86,9 +86,9 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                         ami = adjusted_mutual_info_score(y_true, y_pred)
                         contingency_mat = contingency_matrix(y_true, y_pred)
                         purity = np.sum(np.amax(contingency_mat, axis=0)) / np.sum(contingency_mat)
-                        silhouette = silhouette_score(X, y_pred)
-                        calinski_harabasz = calinski_harabasz_score(X, y_pred)
-                        davies_bouldin = davies_bouldin_score(X, y_pred)
+                        silhouette = silhouette_score(X_copy, y_pred)
+                        calinski_harabasz = calinski_harabasz_score(X_copy, y_pred)
+                        davies_bouldin = davies_bouldin_score(X_copy, y_pred)
                     else:
                         print(f"[1CLUST] {fe_name}, {clust_name}, {fe_params}")
                         ari = ami = purity = silhouette = calinski_harabasz = davies_bouldin = -1
