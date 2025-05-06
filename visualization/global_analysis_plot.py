@@ -14,7 +14,7 @@ from visualization.global_analysis_utils import filter_columns_and_save
 os.chdir("../")
 
 def plot_box(title, data, method_names, conditions):
-    fig, ax1 = plt.subplots(figsize=(10, 6))
+    fig, ax1 = plt.subplots(figsize=(10, 6), dpi=600)
     # fig.canvas.manager.set_window_title('A Boxplot Example')
     fig.subplots_adjust(left=0.075, right=0.95, top=0.9, bottom=0.25)
 
@@ -108,11 +108,12 @@ def compute_ttest(data, method_names):
 
 def plot_ttest_matrix(metric_name, method_names, ttest_matrix, labels):
     df_cm = pd.DataFrame(ttest_matrix, index=method_names, columns=method_names)
-    plt.figure(figsize=(11, 11))
+    plt.figure(figsize=(11, 11), dpi=600)
     pallete = sn.color_palette("magma", as_cmap=True)
     sn.heatmap(df_cm, annot=False, fmt="", cmap=pallete)
     sn.heatmap(df_cm, annot=labels, annot_kws={'va': 'top', 'size': 14}, fmt="s", cbar=False, cmap=pallete, linewidths=5e-3, linecolor='gray')
     plt.savefig(f'./figures/global/confusion_{metric_name}_global_analysis.svg')
+    plt.savefig(f'./figures/global/confusion_{metric_name}_global_analysis.png')
     plt.close()
 
 
@@ -134,25 +135,6 @@ def main(methods_dict):
 
 
 if __name__ == "__main__":
-    # pca = filter_columns_and_save(f"./results/pca_kmeans.csv", columns=columns)
-    # ica = filter_columns_and_save(f"./results/ica_kmeans.csv", columns=columns)
-    # isomap = filter_columns_and_save(f"./results/spaces/isomap_kmeans.csv", columns=columns)
-    # umap = filter_columns_and_save(f"./results/umap_kmeans.csv", columns=columns)
-    # ae_normal = np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
-    # tsne = filter_columns_and_save(f"./results/tsne_kmeans.csv", columns=columns)
-    # lle = filter_columns_and_save(f"./results/lle_kmeans.csv", columns=columns)
-    # kpca = filter_columns_and_save(f"./results/kpca_kmeans.csv", columns=columns)
-    # trimap = filter_columns_and_save(f"./results/trimap_kmeans.csv", columns=columns)
-    # kmapper = filter_columns_and_save(f"./results/kmapper_kmeans.csv", columns=columns)
-    # mds = filter_columns_and_save(f"./results/mds_kmeans.csv", columns=columns)
-
-    # pca =               np.loadtxt(f"./results/pca.csv", dtype=float, delimiter=",")
-    # ica =               np.loadtxt(f"./results/ica.csv", dtype=float, delimiter=",")
-    # isomap =            np.loadtxt(f"./results/isomap.csv", dtype=float, delimiter=",")
-    # ae_normal =         np.loadtxt(f"./results/ae_normal.csv", dtype=float, delimiter=",")
-    # vade =              np.loadtxt(f"./results/vade.csv", dtype=float, delimiter=",")
-    # metric_names = ['ARI', 'AMI', 'Purity', 'DBS', 'CHS', 'SS']
-
     columns = ["adjusted_rand_score", "adjusted_mutual_info_score", "purity_score", "silhouette_score", "calinski_harabasz_score", "davies_bouldin_score"]
     metric_names = ['ARI', 'AMI', 'Purity', 'SS', 'CHS', 'DBS']
 
@@ -163,7 +145,6 @@ if __name__ == "__main__":
         'ICA':                  filter_columns_and_save(f"{FOLDER}ica_kmeans.csv", columns=columns),
         'KPCA':                 filter_columns_and_save(f"{FOLDER}kpca_kmeans.csv", columns=columns),
         'SOM':                  filter_columns_and_save(f"{FOLDER}som_kmeans.csv", columns=columns),
-        # 'AE':                   np.loadtxt(f"{FOLDER}ae_normal.csv", dtype=float, delimiter=","),
         'AE':                   filter_columns_and_save(f"{FOLDER}ae_kmeans.csv", columns=columns),
         "LLE":                  filter_columns_and_save(f"{FOLDER}lle_kmeans.csv", columns=columns),
         "MLLE":                 filter_columns_and_save(f"{FOLDER}mlle_kmeans.csv", columns=columns),

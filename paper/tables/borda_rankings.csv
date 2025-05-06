@@ -1,17 +1,17 @@
 Method,ARI,AMI,Purity,SS,CHS,DBS
-1,UMAP,UMAP,UMAP,AE,AE,AE
-2,PHATE,Trimap,Trimap,Trimap,Trimap,Diffusion Map
-3,Trimap,PHATE,PHATE,UMAP,UMAP,UMAP
-4,AE,t-SNE,t-SNE,PHATE,t-SNE,Trimap
-5,MLLE,AE,Isomap,t-SNE,PHATE,PHATE
-6,t-SNE,MLLE,AE,MLLE,Isomap,t-SNE
-7,Spectral embedding,Isomap,MDS,Isomap,Keppler Mapper,MLLE
-8,Isomap,Spectral embedding,Keppler Mapper,Diffusion Map,PCA,Isomap
-9,Diffusion Map,Diffusion Map,PCA,PCA,MDS,PCA
+1,UMAP,UMAP,UMAP,Trimap,Trimap,UMAP
+2,PHATE,Trimap,Trimap,UMAP,UMAP,Diffusion Map
+3,Trimap,PHATE,PHATE,PHATE,t-SNE,Trimap
+4,MLLE,t-SNE,t-SNE,t-SNE,PHATE,PHATE
+5,AE,MLLE,Isomap,Diffusion Map,Isomap,t-SNE
+6,t-SNE,AE,AE,MLLE,AE,MLLE
+7,Diffusion Map,Diffusion Map,MDS,AE,Keppler Mapper,AE
+8,Spectral embedding,Isomap,Keppler Mapper,Isomap,PCA,Isomap
+9,Isomap,Spectral embedding,PCA,PCA,MDS,PCA
 10,MDS,MDS,Spectral embedding,MDS,ICA,MDS
-11,Keppler Mapper,Keppler Mapper,MLLE,Keppler Mapper,KPCA,LLE
-12,LLE,LLE,ICA,Spectral embedding,Spectral embedding,Keppler Mapper
-13,PCA,PCA,KPCA,ICA,MLLE,ICA
-14,ICA,ICA,LLE,LLE,LLE,Spectral embedding
-15,KPCA,KPCA,Diffusion Map,KPCA,Diffusion Map,KPCA
+11,LLE,Keppler Mapper,MLLE,Keppler Mapper,KPCA,LLE
+12,Keppler Mapper,LLE,ICA,Spectral embedding,Spectral embedding,Keppler Mapper
+13,PCA,PCA,Diffusion Map,ICA,MLLE,ICA
+14,ICA,ICA,KPCA,LLE,Diffusion Map,Spectral embedding
+15,KPCA,KPCA,LLE,KPCA,LLE,KPCA
 16,SOM,SOM,SOM,SOM,SOM,SOM

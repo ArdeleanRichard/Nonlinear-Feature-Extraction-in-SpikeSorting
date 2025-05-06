@@ -1,7 +1,8 @@
 import numpy as np
 from sklearn import manifold
-from sklearn.decomposition import KernelPCA
+from sklearn.decomposition import KernelPCA, PCA, FastICA
 from sklearn.manifold import TSNE, Isomap, LocallyLinearEmbedding, MDS, SpectralEmbedding
+from torch.nn import Tanh, ReLU, LeakyReLU
 from umap import UMAP
 from pydiffmap import diffusion_map as dm
 from minisom import MiniSom
@@ -9,6 +10,8 @@ import phate
 import trimap
 import kmapper as km
 from sklearn.cluster import DBSCAN, KMeans
+
+from algorithms.ae_pytorch import AutoEncoder
 
 
 # for trimap error:
@@ -207,8 +210,20 @@ def load_algorithms_fe():
         #     },
         # },
         #
-
-
+        #
+        # "ae": {
+        #     "estimator": AutoEncoder,
+        #     "param_grid": {
+        #         "latent_dim": 2,
+        #         "hidden_dims": [70,40,20,10],
+        #         "epochs": 100,
+        #         "lr": 0.001,
+        #         "batch_size": 64,
+        #         "encoder_non_linearity": Tanh(),
+        #         "decoder_non_linearity": Tanh(),
+        #
+        #     },
+        # },
 
         # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
         "diffusion_map": {
