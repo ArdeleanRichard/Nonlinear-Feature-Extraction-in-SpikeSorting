@@ -207,7 +207,7 @@ def main_metrics():
             file_dir=fig_folder + scatter_plot_folder,
             output_path=fig_folder + f"{scatter_plot_folder}.png",
             file_format="png",  # or "svg"
-            figsize=(8, 10),
+            figsize=(6, 10),
             dpi=600,
             hspace=0.01,
             y=0.9,
