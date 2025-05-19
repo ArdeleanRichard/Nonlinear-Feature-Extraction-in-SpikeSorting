@@ -236,13 +236,13 @@ def load_algorithms_fe():
         },
 
         ### Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
-        "mds": {
-            "estimator": MDS,
-            "param_grid": {
-                "n_components": 2,
-                "metric": True
-            },
-        },
+        # "mds": {
+        #     "estimator": MDS,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "metric": True
+        #     },
+        # },
 
 
 
