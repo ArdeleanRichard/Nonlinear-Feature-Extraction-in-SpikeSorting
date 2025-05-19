@@ -1,0 +1,2 @@
+dataset,silhouette_score,calinski_harabasz_score,davies_bouldin_score,norm_davies_bouldin_score
+m045_c0,0.09534875161726879,4057.400938232243,2.4825816220535697,0.2871433058933824
