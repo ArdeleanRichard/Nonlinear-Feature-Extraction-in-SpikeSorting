@@ -1,0 +1,2 @@
+dataset,silhouette_score,calinski_harabasz_score,davies_bouldin_score,norm_davies_bouldin_score
+RealDataCh2,0.01993402391260966,277.02527882151674,3.6679763634250735,0.2142255920221202
