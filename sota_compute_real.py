@@ -12,7 +12,7 @@ from algos import load_algorithms_fe, load_algorithms_clust
 
 matplotlib.use('Agg')
 from constants import DIR_RESULTS, DIR_FIGURES
-from datasets import load_all_data, load_kampff_data
+from datasets import load_all_data, load_real_data
 from visualization import scatter_plot
 
 
@@ -37,7 +37,7 @@ def normalize_dbs(df):
     df['norm_davies_bouldin_score'] = 1 / (1 + df['davies_bouldin_score'])
     return df
 
-def perform_grid_search(datasets, featureextraction_algorithms, clustering_algorithms, n_repeats=10):
+def perform_grid_search(datasets, featureextraction_algorithms, clustering_algorithms):
     os.makedirs(DIR_RESULTS + "./grid_search/", exist_ok=True)
     os.makedirs(DIR_RESULTS + "./spaces/", exist_ok=True)
 
@@ -46,7 +46,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
 
         for clust_name, clust_details in clustering_algorithms.items():
 
-            for dataset_name, X in datasets:
+            for dataset_name, (X, y, y_true) in datasets:
                 print(fe_name, clust_name, dataset_name)
                 # Normalize dataset
                 X_copy = np.copy(X)
@@ -60,7 +60,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 # Special parameter handling
                 for param_name in clust_param_names:
                     if param_name == "n_clusters" or param_name == "n_clusters_init":
-                        clust_details["param_grid"]["n_clusters"] = 4
+                        clust_details["param_grid"]["n_clusters"] = len(np.unique(y))
                     if param_name == "input_dim":
                         clust_details["param_grid"]["input_dim"] = [X.shape[1]]
 
@@ -79,22 +79,29 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                     y_pred = estimator.fit_predict(X_transformed)
 
                     if len(np.unique(y_pred)) > 1:
-                        silhouette = silhouette_score(X_copy, y_pred)
-                        calinski_harabasz = calinski_harabasz_score(X_copy, y_pred)
-                        davies_bouldin = davies_bouldin_score(X_copy, y_pred)
+                        ari = adjusted_rand_score(y_true, y_pred)
+                        ami = adjusted_mutual_info_score(y_true, y_pred)
+                        contingency_mat = contingency_matrix(y_true, y_pred)
+                        purity = np.sum(np.amax(contingency_mat, axis=0)) / np.sum(contingency_mat)
+                        silhouette = silhouette_score(X_transformed, y_true)
+                        calinski_harabasz = calinski_harabasz_score(X_transformed, y_true)
+                        davies_bouldin = davies_bouldin_score(X_transformed, y_true)
                     else:
                         print(f"[1CLUST] {fe_name}, {clust_name}, {fe_params}")
-                        silhouette = calinski_harabasz = davies_bouldin = -1
+                        ari = ami = purity = silhouette = calinski_harabasz = davies_bouldin = -1
 
                     scores = {
                         "dataset": dataset_name,  # Track dataset in results
+                        "adjusted_rand_score": ari,
+                        "adjusted_mutual_info_score": ami,
+                        "purity_score": purity,
                         "silhouette_score": silhouette,
                         "calinski_harabasz_score": calinski_harabasz,
                         "davies_bouldin_score": davies_bouldin,
                     }
                     print(scores)
 
-                    scatter_plot.plot(f'{fe_name} + {clust_name} on {dataset_name}', X_transformed, y_pred, marker='o')
+                    scatter_plot.plot(f'{fe_name} + {clust_name} on {dataset_name}', X_transformed, y_pred, marker='o', binary_markers=y_true)
                     plt.savefig(DIR_FIGURES + "svgs/" + f'{dataset_name}_{fe_name}_{clust_name}.svg')
                     plt.savefig(DIR_FIGURES + "pngs/" + f'{dataset_name}_{fe_name}_{clust_name}.png')
                     plt.close()
@@ -103,6 +110,9 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                     print(f"[ERROR] {clust_name}, {fe_params}, {e}")
                     scores = {
                         "dataset": dataset_name,
+                        "adjusted_rand_score": -1,
+                        "adjusted_mutual_info_score": -1,
+                        "purity_score": -1,
                         "silhouette_score": -1,
                         "calinski_harabasz_score": -1,
                         "davies_bouldin_score": -1,
@@ -116,7 +126,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                 df.to_csv(DIR_RESULTS + f"{fe_name}_{clust_name}.csv", index=False)
 
 if __name__ == "__main__":
-    datasets = load_kampff_data()
+    datasets = load_real_data()
     fes = load_algorithms_fe()
     clusts = load_algorithms_clust()
     perform_grid_search(datasets, fes, clusts)

@@ -7,7 +7,7 @@ from sklearn.decomposition import PCA
 from visualization.label_map import LABEL_COLOR_MAP, LABEL_COLOR_MAP2
 
 
-def plot(title, X, labels=None, plot=True, marker='o', alpha=1):
+def plot(title, X, labels=None, plot=True, marker='o', alpha=0.7, binary_markers=None):
     """
     Plots the dataset with or without labels
     :param title: string - the title of the plot
@@ -18,9 +18,10 @@ def plot(title, X, labels=None, plot=True, marker='o', alpha=1):
 
     :returns None
     """
+    # Handle binary markers efficiently (avoid plotting one point at a time)
     if plot:
         nrDim = len(X[0])
-        fig = plt.figure() #figsize=(16, 12), dpi=400
+        fig = plt.figure()  # figsize=(16, 12), dpi=400
         plt.title(title)
 
         if labels is not None:
@@ -32,29 +33,62 @@ def plot(title, X, labels=None, plot=True, marker='o', alpha=1):
         else:
             label_color = 'gray'
 
+        # Handle binary markers efficiently (avoid plotting one point at a time)
+        if binary_markers is not None:
+            # Convert binary_markers to numpy array if it's not already
+            binary_markers = np.array(binary_markers)
 
-        if nrDim == 2:
-            plt.scatter(X[:, 0], X[:, 1], c=label_color, marker=marker, edgecolors='k', alpha=alpha)
-        if nrDim == 3:
-            # ax = fig.add_subplot(projection='3d')
-            # if labels is None:
-            #     ax.scatter(X[:, 0], X[:, 1], X[:, 2], marker=marker, edgecolors='k')
-            # else:
-            #     try:
-            #         label_color = [cs.LABEL_COLOR_MAP[l] for l in labels]
-            #     except KeyError:
-            #         print('Too many labels! Using default colors...\n')
-            #         label_color = [l for l in labels]
-            #     ax.scatter(X[:, 0], X[:, 1], X[:, 2], c=label_color, marker=marker, edgecolors='k', alpha=alpha)
-            plt.axis('off')
+            # Create masks for different marker types
+            mask_default = binary_markers == 0
+            mask_special = binary_markers == 1
 
-            ax = Axes3D(fig)
-            # ax.set_axis_off()
-            ax.set_xlabel("x")
-            ax.set_ylabel("y")
-            ax.set_zlabel("z")
+            # Alternate marker for points where binary_markers is 1
+            special_marker = 'X' if marker != 'X' else '*'
 
-            ax.scatter(X[:, 0], X[:, 1], X[:, 2], marker=marker, c=label_color, edgecolors='k', s=25)
+            if nrDim == 2:
+                # Plot points with default marker
+                if np.any(mask_default):
+                    plt.scatter(X[mask_default, 0], X[mask_default, 1],
+                                c=[label_color[i] for i in range(len(label_color)) if mask_default[i]] if isinstance(label_color, list) else label_color,
+                                marker=marker, edgecolors='k', alpha=alpha)
+
+                # Plot points with special marker
+                if np.any(mask_special):
+                    plt.scatter(X[mask_special, 0], X[mask_special, 1],
+                                c=[label_color[i] for i in range(len(label_color)) if mask_special[i]] if isinstance(label_color, list) else label_color,
+                                marker=special_marker, edgecolors='k', alpha=1)
+
+            elif nrDim == 3:
+                plt.axis('off')
+                ax = Axes3D(fig)
+                ax.set_xlabel("x")
+                ax.set_ylabel("y")
+                ax.set_zlabel("z")
+
+                # Plot points with default marker
+                if np.any(mask_default):
+                    ax.scatter(X[mask_default, 0], X[mask_default, 1], X[mask_default, 2],
+                               c=[label_color[i] for i in range(len(label_color)) if mask_default[i]] if isinstance(label_color, list) else label_color,
+                               marker=marker, edgecolors='k', s=25, alpha=alpha)
+
+                # Plot points with special marker
+                if np.any(mask_special):
+                    ax.scatter(X[mask_special, 0], X[mask_special, 1], X[mask_special, 2],
+                               c=[label_color[i] for i in range(len(label_color)) if mask_special[i]] if isinstance(label_color, list) else label_color,
+                               marker=special_marker, edgecolors='k', s=25, alpha=alpha)
+
+        else:
+            # Original plotting without binary markers
+            if nrDim == 2:
+                plt.scatter(X[:, 0], X[:, 1], c=label_color, marker=marker, edgecolors='k', alpha=alpha)
+
+            elif nrDim == 3:
+                plt.axis('off')
+                ax = Axes3D(fig)
+                ax.set_xlabel("x")
+                ax.set_ylabel("y")
+                ax.set_zlabel("z")
+                ax.scatter(X[:, 0], X[:, 1], X[:, 2], marker=marker, c=label_color, edgecolors='k', s=25, alpha=alpha)
 
 
 

@@ -1,0 +1,3224 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="460.8pt" height="345.6pt" viewBox="0 0 460.8 345.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2025-05-19T15:59:13.976167</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.7.5, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 345.6 
+L 460.8 345.6 
+L 460.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.6 307.584 
+L 414.72 307.584 
+L 414.72 41.472 
+L 57.6 41.472 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_50fc62578c" d="M 0 3 
+C 0.795609 3 1.55874 2.683901 2.12132 2.12132 
+C 2.683901 1.55874 3 0.795609 3 -0 
+C 3 -0.795609 2.683901 -1.55874 2.12132 -2.12132 
+C 1.55874 -2.683901 0.795609 -3 0 -3 
+C -0.795609 -3 -1.55874 -2.683901 -2.12132 -2.12132 
+C -2.683901 -1.55874 -3 -0.795609 -3 0 
+C -3 0.795609 -2.683901 1.55874 -2.12132 2.12132 
+C -1.55874 2.683901 -0.795609 3 0 3 
+z
+"/>
+    </defs>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="199.369002" y="182.722092" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="199.414155" y="81.128151" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.179966" y="87.131631" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="128.900933" y="219.426878" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="192.680946" y="198.43495" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.95038" y="195.425103" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="291.347078" y="192.285816" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="274.74673" y="234.613575" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.456176" y="186.171318" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="303.736079" y="116.480979" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="274.873494" y="84.718647" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="241.724535" y="177.615869" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="159.905933" y="81.647249" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="388.411473" y="163.903967" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="177.949417" y="65.44064" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="94.604057" y="150.550154" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="343.674127" y="99.234261" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.618817" y="105.338479" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="150.689801" y="159.599657" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.507805" y="76.316921" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="260.554694" y="85.929441" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="137.893065" y="158.388091" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.60877" y="276.65788" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.928208" y="250.026057" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="334.795145" y="148.950207" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="167.894419" y="103.614957" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="303.630725" y="211.562005" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="258.849729" y="137.735127" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="278.205504" y="233.809942" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="331.547187" y="153.520742" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="253.363211" y="109.019897" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="165.681273" y="66.406924" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="167.956892" y="207.181107" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="206.028655" y="217.388217" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="209.273963" y="282.59081" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="219.505368" y="286.64519" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="80.650442" y="134.645598" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="127.051519" y="166.74659" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="278.995552" y="225.051108" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="333.754773" y="204.063839" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.40918" y="61.900999" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="147.944421" y="196.213824" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="228.210108" y="88.401441" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.367284" y="169.743004" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="83.365722" y="134.29372" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="282.854225" y="78.280547" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="175.783288" y="104.687729" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="165.895501" y="188.587493" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.821485" y="87.386247" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="177.176859" y="214.314474" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="259.245515" y="245.22693" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.450343" y="113.979875" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="230.467891" y="178.27859" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="117.025837" y="192.545282" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="256.835554" y="159.778998" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="306.786498" y="205.595784" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="355.683361" y="214.164112" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.239047" y="264.859097" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.279724" y="180.938805" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="244.024675" y="209.939365" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="207.701629" y="93.884995" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="379.858688" y="118.206797" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="380.378404" y="139.120205" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.781971" y="94.234981" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.884691" y="79.048997" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="184.621331" y="71.071351" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="218.765448" y="241.401614" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="215.547302" y="74.044783" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.599345" y="215.744437" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.878125" y="177.86448" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="141.45176" y="214.087027" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="274.407795" y="205.673439" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="235.972399" y="203.872399" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="153.95764" y="234.602972" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.983896" y="99.609131" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="95.46365" y="151.246122" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="241.422258" y="163.545785" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="107.14887" y="175.385934" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="218.355706" y="206.71593" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="190.891466" y="95.659403" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="94.177488" y="204.473145" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.649765" y="88.643924" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="179.438038" y="154.829363" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="280.348136" y="265.027959" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="248.195236" y="122.025287" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="218.119422" y="96.698344" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="235.101147" y="119.683346" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="125.851966" y="77.551741" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="331.416696" y="108.816023" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="215.123729" y="118.402356" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="215.114834" y="149.689371" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="239.22319" y="255.540197" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="249.234299" y="100.17715" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.330862" y="223.220556" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="202.28936" y="160.939838" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="293.25941" y="178.276408" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="212.257503" y="125.821343" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="161.646098" y="80.203961" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="171.260692" y="154.057407" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="368.394832" y="135.402091" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.680331" y="237.028342" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="282.451307" y="196.317616" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="292.51463" y="157.09408" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="300.195564" y="244.174918" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="324.377006" y="154.115083" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="206.483942" y="241.780644" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="85.883348" y="148.620503" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.961622" y="150.304873" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="236.186588" y="256.490339" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="131.794828" y="141.920895" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="165.751448" y="147.627241" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="127.804963" y="108.250641" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="300.839441" y="91.405622" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="138.525194" y="247.591038" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="131.668634" y="135.743089" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="320.119712" y="227.539336" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="258.081552" y="291.465232" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.86457" y="98.243817" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="149.069446" y="97.383359" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.985827" y="245.326828" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="271.953182" y="180.181738" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="269.839183" y="59.589125" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="121.978403" y="74.208466" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.700833" y="182.686322" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="243.558067" y="125.694077" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="87.227641" y="196.913218" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="157.136728" y="65.828108" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="353.418031" y="213.402329" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="271.539235" y="214.622931" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="338.359996" y="113.045271" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="336.552356" y="174.945523" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="322.025159" y="150.297369" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="249.971485" y="181.041953" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="143.47923" y="72.087238" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="389.32944" y="122.377682" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.528923" y="129.576877" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="85.585601" y="183.882854" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="208.674892" y="71.068465" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="247.426258" y="115.949584" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="360.459015" y="178.718629" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="133.105959" y="186.144877" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="133.082605" y="174.373217" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.806157" y="208.858467" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="237.053957" y="154.826276" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="224.036613" y="76.947326" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="323.690155" y="187.008246" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.775056" y="128.946502" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.316551" y="117.596321" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="377.829604" y="193.765424" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="299.078194" y="134.864304" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="176.697436" y="218.604814" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="355.138369" y="201.013776" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="207.862017" y="207.766429" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="243.786781" y="236.614124" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.550027" y="293.22954" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.485803" y="276.370783" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="192.157364" y="211.822751" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="368.54587" y="123.801835" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="274.738567" y="143.137357" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="275.118689" y="164.765971" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="392.703176" y="141.744862" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="233.362989" y="257.107112" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="297.19274" y="263.541429" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.285913" y="242.600758" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="127.91018" y="110.956819" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="261.568928" y="110.696763" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="152.794967" y="204.065546" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="256.787914" y="192.294214" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="198.922024" y="138.256666" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="314.704817" y="81.725284" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.215548" y="138.971478" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="238.294888" y="255.212824" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="389.146118" y="122.184284" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="279.849691" y="149.475469" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="355.030519" y="198.819567" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="124.029647" y="113.497194" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="362.938904" y="109.112774" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.260785" y="196.225186" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="334.729699" y="105.095499" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="270.27249" y="181.226931" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="83.053824" y="161.339515" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="128.002585" y="85.023497" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="249.54591" y="250.357034" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="143.932523" y="163.982556" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="390.687708" y="184.764742" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="335.560503" y="92.771153" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="302.592463" y="149.77266" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="242.656534" y="272.996138" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.306545" y="155.447771" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.237948" y="278.050336" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="155.521391" y="186.735893" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="347.202028" y="227.381868" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="365.60307" y="188.478321" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="138.933403" y="220.405091" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="184.551403" y="111.037595" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="308.813456" y="159.2602" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="200.084108" y="222.463212" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="255.44833" y="219.160184" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="281.031321" y="133.57987" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="231.522772" y="230.808788" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="90.727224" y="189.532088" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="279.968568" y="107.327652" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="237.585303" y="100.593349" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="309.218746" y="95.861385" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="323.299975" y="101.385969" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="192.766654" y="162.352883" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="246.45948" y="106.593447" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="147.882225" y="166.908955" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="187.010768" y="236.094934" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="294.897621" y="74.592013" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.3679" y="151.148958" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="101.448325" y="168.415379" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="245.699113" y="178.259218" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="392.088487" y="135.154281" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="341.182933" y="210.768919" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="195.806068" y="138.874898" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="94.062702" y="119.411034" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="122.102128" y="180.133872" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="255.034199" y="72.277698" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="303.471277" y="210.697009" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="232.416819" y="124.131559" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="222.082686" y="148.07966" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="244.877858" y="252.753569" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="339.223654" y="186.534805" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="251.172107" y="70.878532" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="313.091512" y="207.593621" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="260.408015" y="146.460526" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="272.460884" y="241.824035" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="269.510706" y="205.593894" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="130.440495" y="158.209381" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="295.767132" y="193.945842" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="189.176065" y="139.76234" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="89.158695" y="169.686135" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="286.420262" y="174.972724" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="105.865997" y="183.764839" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="207.7881" y="114.896225" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="239.457203" y="86.424058" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.185" y="141.765662" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="310.002726" y="157.196379" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="173.622265" y="236.737747" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.672012" y="216.051199" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="187.147751" y="106.65633" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="119.228704" y="133.102235" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="230.645761" y="137.215129" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="135.47337" y="231.04175" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="299.994544" y="196.988448" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.581218" y="178.249295" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="288.163489" y="194.508676" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.405782" y="252.20415" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="304.143618" y="180.897295" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="189.608071" y="258.591687" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="190.662352" y="117.064109" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="351.950173" y="179.767851" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="314.264886" y="257.604025" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="322.754382" y="127.766208" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="382.492788" y="142.809867" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.111318" y="175.291268" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="259.369922" y="212.059836" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="293.989804" y="196.195639" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="168.013112" y="175.603295" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="121.170218" y="189.271934" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="112.550531" y="196.722929" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="369.012078" y="139.396272" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="95.363127" y="189.991007" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="214.037634" y="246.549247" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="157.847692" y="80.549293" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="126.101377" y="180.486474" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="264.017658" y="173.26104" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="163.144784" y="208.261346" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="186.161658" y="230.212978" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="327.204317" y="118.941736" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="270.481843" y="123.453267" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="279.401443" y="106.174114" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="383.174632" y="142.015964" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.867611" y="186.473194" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="392.16969" y="186.081337" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="234.16442" y="114.386425" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.865756" y="156.838818" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="178.328862" y="75.301737" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.843659" y="89.699993" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.678105" y="259.059605" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="114.037267" y="162.823355" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="78.377785" y="133.145178" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="134.224115" y="131.663126" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="90.190502" y="147.824061" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.06379" y="195.339432" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="96.058355" y="121.704726" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="118.211919" y="203.295162" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="252.951359" y="53.568" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.813008" y="86.838758" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="286.034826" y="65.317739" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="83.401595" y="158.303359" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="177.74095" y="164.437705" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="264.598723" y="292.252236" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="168.127399" y="78.924078" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="195.350734" y="126.168288" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="262.143031" y="94.181137" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="256.409024" y="56.719202" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="291.694424" y="113.949892" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="384.043373" y="173.759923" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="371.051974" y="146.196788" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="198.271039" y="84.191864" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.823519" y="57.816951" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="357.27752" y="170.928144" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.756666" y="255.32959" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="273.328192" y="279.87234" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="198.014246" y="169.347144" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="189.047214" y="187.695805" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.428771" y="119.286664" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="152.45932" y="259.607683" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="226.668772" y="216.708122" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="248.119917" y="246.506235" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="158.489886" y="200.089274" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="222.483132" y="126.131706" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="377.979318" y="133.368859" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.558457" y="182.366175" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.434455" y="232.206761" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="208.688446" y="256.277994" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="160.253898" y="145.728059" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="292.745793" y="91.944112" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="304.62375" y="249.183112" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="269.202206" y="285.136201" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="397.379483" y="125.533983" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="252.752496" y="208.335881" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="322.638816" y="132.67618" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="334.594541" y="139.837893" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="188.137033" y="57.361895" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="369.647345" y="107.6086" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="88.980226" y="151.012145" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="205.867481" y="142.53138" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="86.261274" y="147.070888" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="168.694464" y="123.934045" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.500655" y="93.59266" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="279.850892" y="174.215636" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="315.392992" y="256.600998" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="131.597023" y="144.569971" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.300938" y="156.794468" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="252.015232" y="104.556015" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="192.713407" y="172.96706" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="305.179323" y="165.900711" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="278.733876" y="66.504942" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="130.644731" y="138.683952" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="298.318828" y="69.688723" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="284.325486" y="249.574136" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="115.812024" y="152.000583" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="321.8364" y="184.160591" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="99.012097" y="125.172796" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="201.665892" y="280.364847" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="262.082668" y="76.771832" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="287.097009" y="161.520154" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="247.771771" y="101.651703" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="359.987016" y="214.715079" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="115.289438" y="128.860389" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="318.224847" y="130.455269" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="178.302354" y="103.817673" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="354.076171" y="164.191648" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="262.220106" y="291.937463" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.394594" y="64.789249" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="235.124621" y="206.680065" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="126.925808" y="149.214855" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="200.292499" y="63.196531" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.527347" y="130.195844" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="194.862994" y="179.762648" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="210.975263" y="132.682768" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="78.590434" y="131.854155" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.933506" y="172.765605" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="181.93088" y="160.912218" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="333.829445" y="102.077417" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="298.155652" y="72.970584" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="141.118042" y="186.267365" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="300.653854" y="151.069216" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="253.810412" y="246.518506" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="181.604875" y="68.815782" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.319848" y="153.841442" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="140.72636" y="168.332968" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="321.19203" y="175.83284" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="352.019763" y="121.756471" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="273.517013" y="280.481916" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="250.506743" y="154.663363" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="279.201331" y="160.967882" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.373263" y="228.516338" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="276.330785" y="281.42556" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="297.367621" y="125.824963" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="247.185669" y="218.149803" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.064741" y="142.24282" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="90.379344" y="195.435211" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="246.413503" y="85.902292" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="226.980507" y="114.104101" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="246.450516" y="107.924547" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.818604" y="206.957535" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="117.870317" y="114.976132" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="209.981222" y="109.420758" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="135.184636" y="119.213407" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="209.277921" y="185.777717" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="208.231242" y="163.165548" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="197.658514" y="106.748432" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.15864" y="113.091906" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="288.936301" y="191.968162" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.079259" y="185.639436" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="139.380584" y="71.221547" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="185.988108" y="177.4434" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="210.227857" y="181.730929" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="175.706753" y="149.985993" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="197.338316" y="269.064203" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="273.403634" y="114.421983" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="271.282011" y="248.551343" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="182.739804" y="138.80704" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="343.449572" y="186.767924" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="241.990539" y="154.846263" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="263.332055" y="130.945066" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="325.148386" y="87.22004" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="257.227013" y="130.142776" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="170.663701" y="204.903945" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="73.832727" y="149.431813" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="298.948734" y="126.671138" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="206.37007" y="248.830007" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="87.300129" y="129.653609" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.030762" y="227.267842" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="306.279365" y="106.944911" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="81.4555" y="128.08591" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="365.119581" y="186.884491" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="308.240955" y="157.678688" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="220.496429" y="95.424128" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="249.215739" y="186.425551" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="180.305107" y="223.565569" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="79.880462" y="188.983477" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.496239" y="63.819811" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="270.444476" y="196.623857" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="148.158452" y="114.283236" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="175.732321" y="199.36613" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="139.713844" y="231.804942" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.193892" y="192.560375" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="324.990647" y="114.743764" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="195.457968" y="168.076279" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.415712" y="207.276102" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="184.364045" y="119.220388" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="138.950192" y="70.561002" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="386.448929" y="135.198734" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="199.939069" y="84.051162" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="311.213667" y="158.406946" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="143.140711" y="82.735659" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="124.861804" y="168.246152" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="316.998796" y="188.35424" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="257.655684" y="270.884165" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="226.751731" y="171.483483" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="152.814959" y="112.455388" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="335.579571" y="97.725712" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="220.900394" y="246.642551" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="223.108203" y="139.85864" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="138.781452" y="156.771544" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="271.216303" y="266.173574" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="254.526219" y="221.042364" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="273.782062" y="269.356918" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="164.784123" y="145.990525" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.353874" y="190.542028" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.005269" y="102.978584" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="293.713203" y="114.004098" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="115.452434" y="87.758396" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="193.412411" y="65.528222" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="336.895774" y="114.895449" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.500495" y="254.029292" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="165.528456" y="96.037169" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="342.392118" y="186.928638" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="119.253525" y="198.608251" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.431311" y="115.957951" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.414792" y="87.219895" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="200.137594" y="243.175716" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.834096" y="269.731909" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="120.879227" y="187.898816" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.972758" y="118.681939" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="313.555902" y="113.107286" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="116.226466" y="122.639361" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="137.484618" y="128.857173" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="245.65101" y="252.78475" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="310.438236" y="181.973159" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="211.264463" y="256.696454" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="398.487273" y="128.796492" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="139.367939" y="253.452084" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="129.978716" y="151.445854" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="225.144141" y="92.051231" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="86.858323" y="149.052837" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="277.716038" y="223.045397" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="293.051397" y="179.173877" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="122.78503" y="74.995739" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="141.582929" y="137.939208" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="289.478706" y="99.930767" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="320.935699" y="178.971766" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="237.934727" y="186.001067" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="307.402049" y="158.907303" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="218.900475" y="264.872035" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.668138" y="159.936838" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="141.724059" y="142.210975" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="289.714258" y="251.067525" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="285.530944" y="71.586456" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.664931" y="188.213187" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="320.853695" y="181.005459" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="269.945307" y="129.801582" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="146.648191" y="167.703602" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.946364" y="148.382415" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="140.273599" y="247.727098" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="234.296667" y="191.617106" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.533349" y="59.406536" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="346.728119" y="186.376594" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="328.498047" y="93.551258" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="107.981472" y="176.327623" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="238.613784" y="277.658742" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="192.774995" y="64.819553" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="229.46487" y="68.880754" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="185.952243" y="205.311185" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.74966" y="257.160146" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="306.824019" y="175.17014" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.8288" y="70.780608" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="143.386626" y="133.22402" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.597854" y="115.894426" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="276.789476" y="148.632795" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="250.402513" y="254.61031" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="241.035374" y="151.141568" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="124.226963" y="204.933647" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="288.709543" y="218.632385" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="244.794792" y="253.78775" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="114.073773" y="89.466528" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.450065" y="71.689604" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.569062" y="161.34964" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="305.747789" y="251.667788" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="255.638383" y="184.008367" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="289.146686" y="89.528501" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="287.331853" y="229.484755" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="102.675178" y="147.03411" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="114.240822" y="128.558808" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="323.089421" y="235.629085" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="353.856005" y="181.101826" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.886926" y="131.268274" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.936042" y="132.415462" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="311.928366" y="207.446787" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="274.222686" y="198.817457" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="303.504855" y="138.132885" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="176.087275" y="244.474739" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="182.466715" y="106.510509" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="172.901721" y="206.920081" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="118.929034" y="79.052141" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="322.413506" y="222.918162" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.879517" y="152.381808" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="304.816591" y="153.83338" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.341234" y="273.571552" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="351.573501" y="211.849251" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="247.241919" y="139.707679" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="270.077862" y="195.574493" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="257.664448" y="183.456974" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="118.146792" y="167.124439" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="144.652004" y="76.687229" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="392.659432" y="125.750672" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="187.548875" y="120.992138" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.9642" y="67.690635" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="163.379686" y="105.135514" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="244.346636" y="148.044443" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="276.732086" y="248.653085" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="302.537014" y="139.017668" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="211.410365" y="166.945728" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="320.041051" y="144.859493" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="185.83516" y="62.212613" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="251.596203" y="199.187316" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="143.260228" y="70.044086" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.486393" y="70.398012" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="214.553577" y="175.075241" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="205.959489" y="88.083104" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="393.493209" y="132.601423" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="168.332832" y="156.337018" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="139.710351" y="251.183803" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="207.949011" y="257.73147" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="211.266442" y="120.534961" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="312.856761" y="78.196937" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.204863" y="123.000444" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="107.035895" y="109.605468" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="108.906018" y="159.851966" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="174.512593" y="218.934641" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="233.700892" y="80.216662" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.992232" y="78.236156" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.928035" y="237.414431" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="205.840018" y="226.77956" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="320.175932" y="118.060769" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="278.775202" y="169.014441" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="138.250253" y="161.824994" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="109.603062" y="207.28661" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="96.478746" y="123.94505" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="193.889423" y="202.22042" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="219.021008" y="192.000829" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="258.192667" y="119.413248" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="176.057625" y="125.071242" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="170.093833" y="225.672416" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.554711" y="142.820448" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.520713" y="282.101856" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="261.375902" y="224.520731" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="251.989895" y="98.266291" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="98.537388" y="172.640051" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="209.15356" y="166.482941" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="171.092541" y="189.645014" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="100.298914" y="205.364615" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="156.75686" y="224.791618" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.004301" y="123.535718" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="107.705769" y="158.258581" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="97.157592" y="193.487757" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="332.532064" y="160.732509" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="180.810029" y="178.154882" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="386.075661" y="167.982564" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="212.44493" y="122.787324" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.278501" y="180.634405" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.242955" y="166.331245" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="193.514384" y="229.448177" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="252.159417" y="280.471263" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="232.644178" y="226.832902" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="331.325928" y="174.965665" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="254.801249" y="173.254917" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="261.164794" y="179.201895" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="215.381562" y="259.089645" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="184.182309" y="91.294128" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="211.080579" y="152.998577" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="297.67837" y="114.449122" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="198.130498" y="199.523758" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="159.274528" y="214.658918" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="166.295739" y="232.71414" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="233.483684" y="179.859843" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="253.507488" y="189.645511" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="239.572492" y="169.780191" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="342.82501" y="132.393597" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="341.945688" y="111.009908" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.968715" y="293.086579" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="361.647484" y="176.603684" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="134.475998" y="102.419697" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.093372" y="188.974251" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="216.552533" y="269.16387" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="208.581552" y="153.405794" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="173.074793" y="175.837945" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.004567" y="226.596349" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="334.617506" y="95.122495" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="194.328545" y="55.633822" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="198.822462" y="61.489227" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="190.125893" y="186.331551" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="351.697015" y="206.960907" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="394.576508" y="136.83033" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="319.540234" y="257.617036" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="234.529863" y="216.612934" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="304.035707" y="220.889483" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="283.032711" y="244.829465" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="290.101743" y="168.328309" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="238.517441" y="179.161104" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="130.314989" y="173.736616" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="259.06515" y="179.328391" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="122.066806" y="106.926439" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="118.266943" y="201.896535" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="179.163354" y="128.320544" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="237.98973" y="232.764816" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="293.375931" y="172.084624" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="193.316652" y="139.957568" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="309.288135" y="185.76407" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="132.904843" y="156.667895" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="278.393108" y="139.527262" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="193.874082" y="176.549178" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="327.960187" y="206.998075" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="194.817325" y="161.180413" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="331.163584" y="115.07114" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="321.602156" y="158.021134" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="219.691532" y="273.351665" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="277.075288" y="148.447574" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="367.166162" y="201.579031" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="351.023781" y="213.199936" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="243.688312" y="195.857178" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="287.360317" y="204.683517" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="332.584464" y="170.311307" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="306.088942" y="161.624869" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="161.609131" y="192.120458" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="280.070272" y="249.926455" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.821445" y="64.309877" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="229.262494" y="153.872175" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="347.873599" y="101.583731" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="357.013457" y="159.580409" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="171.454519" y="213.375263" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="181.22309" y="104.757552" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="195.381825" y="187.15114" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="241.194668" y="168.405186" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="185.55755" y="61.317404" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="175.751182" y="223.787246" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="234.9884" y="272.685719" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="186.747267" y="58.058494" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.600363" y="158.119953" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="263.897748" y="71.741307" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="178.927863" y="137.345808" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="370.695865" y="193.693039" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="90.387502" y="198.705444" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="83.131092" y="167.354429" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="119.239172" y="181.301067" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="114.634005" y="147.468967" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="202.579315" y="183.031824" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="353.782658" y="197.107521" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="258.704743" y="74.01151" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.108739" y="119.731502" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="125.175535" y="132.657945" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="312.653584" y="180.195804" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="259.57849" y="222.54432" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="86.220616" y="200.494008" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="312.371808" y="187.471628" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="145.42797" y="171.120052" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="159.586443" y="173.001444" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.902889" y="115.951331" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="202.176105" y="138.170004" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="116.939596" y="87.727544" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="252.678794" y="87.191132" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="151.865155" y="258.830029" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="267.512874" y="232.789372" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="257.131409" y="202.878058" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.874334" y="204.357579" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="166.65965" y="216.600176" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="248.870673" y="245.973355" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="288.346749" y="206.437172" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="173.34672" y="147.925657" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="194.130929" y="188.7436" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="115.531149" y="101.294891" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="342.426882" y="135.799508" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="250.40641" y="211.726171" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.782904" y="235.418285" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="261.81343" y="121.717623" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="201.741226" y="80.376746" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="264.966985" y="79.671304" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="317.665115" y="231.913454" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="318.484967" y="131.243876" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="228.437513" y="259.063695" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="261.919508" y="268.936794" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="362.040221" y="134.209096" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="342.23609" y="98.527764" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="207.236354" y="233.531864" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="272.452797" y="132.487002" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.391038" y="71.728306" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="200.893133" y="58.678867" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="81.892119" y="196.642034" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="221.034559" y="272.199102" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="365.148168" y="157.91659" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="213.599752" y="87.28344" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="299.602577" y="186.452979" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="355.151399" y="172.865578" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="92.157361" y="130.060014" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="280.562957" y="251.112078" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="265.775254" y="158.517468" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="357.778707" y="221.267373" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="202.356808" y="60.547372" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="157.46814" y="62.728453" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="298.48225" y="213.922137" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="376.768392" y="139.521221" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="378.976239" y="140.408849" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="181.459228" y="203.129473" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="230.853435" y="205.307702" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="236.892091" y="152.552912" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="178.20286" y="161.895748" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="218.59628" y="104.11398" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="247.98579" y="94.774981" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="122.093376" y="210.773697" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="119.879264" y="221.82636" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="132.415701" y="224.508367" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="313.858888" y="110.757485" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="348.328609" y="180.57462" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="156.487225" y="195.666687" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="362.930679" y="198.650051" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="362.850493" y="153.263712" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="225.933573" y="287.422865" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="302.897497" y="142.49755" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="135.063263" y="217.66957" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="243.158137" y="210.831226" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="212.499956" y="202.429753" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="362.515916" y="166.050772" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.528843" y="216.941724" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="103.553453" y="130.226934" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="377.489636" y="149.253309" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="169.26658" y="221.689585" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="328.643479" y="202.695759" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="111.328346" y="165.34547" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="347.913985" y="160.091357" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="183.67905" y="120.957717" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="270.267069" y="194.095278" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="308.182949" y="70.709978" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="199.876843" y="264.519591" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="90.261829" y="204.244489" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="297.215289" y="226.402898" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="333.680778" y="178.762539" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="156.425707" y="76.635847" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="228.407301" y="178.085999" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="259.812856" y="64.510049" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="326.64939" y="162.33528" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="185.133361" y="213.951653" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="253.234691" y="229.004222" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="232.951014" y="222.229646" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="311.168938" y="119.538787" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="137.283879" y="101.9607" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="289.793413" y="125.038983" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="191.843404" y="269.332142" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="78.034115" y="170.712386" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="179.686298" y="67.296217" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="289.685687" y="212.349071" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="149.998307" y="191.369348" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="343.863041" y="115.662978" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="217.834003" y="123.582012" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="121.911705" y="211.313654" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="74.557237" y="141.973508" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="250.316936" y="117.955512" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="227.511582" y="272.656527" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="248.144361" y="295.488" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.871384" y="62.484222" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="82.560159" y="150.773126" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="388.956296" y="120.23975" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="202.62781" y="182.489093" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="240.899137" y="259.803066" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="181.505443" y="262.311642" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.457746" y="227.773471" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="381.270926" y="190.28236" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="229.530039" y="233.297821" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="392.779666" y="163.176335" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="353.451793" y="198.879601" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="224.027533" y="191.452622" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="245.503252" y="60.668154" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="79.245718" y="185.363613" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="268.328183" y="60.547207" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="266.155623" y="125.868195" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="275.503185" y="246.885971" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="222.930017" y="112.138727" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="183.87096" y="218.854924" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="319.115182" y="224.975918" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="234.149109" y="291.071549" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="318.629336" y="231.488922" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="196.998764" y="271.237335" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="349.803675" y="108.82227" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="331.973979" y="176.599516" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="360.874825" y="181.384662" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="223.804926" y="224.031678" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="142.482998" y="254.498084" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="176.732492" y="258.676655" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="338.503796" y="134.397188" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="273.708376" y="81.572233" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="314.971052" y="230.068305" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="197.116587" y="276.438949" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="214.047461" y="147.48807" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="233.98618" y="198.838505" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="194.027801" y="59.293697" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="301.253618" y="197.638722" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+    <g clip-path="url(#pcb15053a69)">
+     <use xlink:href="#C0_0_50fc62578c" x="212.339299" y="231.640837" style="fill: #ff0000; stroke: #000000"/>
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="mb92f0af615" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mb92f0af615" x="100.108027" y="307.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0 -->
+      <g transform="translate(96.926777 322.182437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-30" d="M 2034 4250 
+Q 1547 4250 1301 3770 
+Q 1056 3291 1056 2328 
+Q 1056 1369 1301 889 
+Q 1547 409 2034 409 
+Q 2525 409 2770 889 
+Q 3016 1369 3016 2328 
+Q 3016 3291 2770 3770 
+Q 2525 4250 2034 4250 
+z
+M 2034 4750 
+Q 2819 4750 3233 4129 
+Q 3647 3509 3647 2328 
+Q 3647 1150 3233 529 
+Q 2819 -91 2034 -91 
+Q 1250 -91 836 529 
+Q 422 1150 422 2328 
+Q 422 3509 836 4129 
+Q 1250 4750 2034 4750 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#mb92f0af615" x="164.711438" y="307.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 1 -->
+      <g transform="translate(161.530188 322.182437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-31" d="M 794 531 
+L 1825 531 
+L 1825 4091 
+L 703 3866 
+L 703 4441 
+L 1819 4666 
+L 2450 4666 
+L 2450 531 
+L 3481 531 
+L 3481 0 
+L 794 0 
+L 794 531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-31"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#mb92f0af615" x="229.314848" y="307.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 2 -->
+      <g transform="translate(226.133598 322.182437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-32" d="M 1228 531 
+L 3431 531 
+L 3431 0 
+L 469 0 
+L 469 531 
+Q 828 903 1448 1529 
+Q 2069 2156 2228 2338 
+Q 2531 2678 2651 2914 
+Q 2772 3150 2772 3378 
+Q 2772 3750 2511 3984 
+Q 2250 4219 1831 4219 
+Q 1534 4219 1204 4116 
+Q 875 4013 500 3803 
+L 500 4441 
+Q 881 4594 1212 4672 
+Q 1544 4750 1819 4750 
+Q 2544 4750 2975 4387 
+Q 3406 4025 3406 3419 
+Q 3406 3131 3298 2873 
+Q 3191 2616 2906 2266 
+Q 2828 2175 2409 1742 
+Q 1991 1309 1228 531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-32"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#mb92f0af615" x="293.918259" y="307.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <!-- 3 -->
+      <g transform="translate(290.737009 322.182437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-33" d="M 2597 2516 
+Q 3050 2419 3304 2112 
+Q 3559 1806 3559 1356 
+Q 3559 666 3084 287 
+Q 2609 -91 1734 -91 
+Q 1441 -91 1130 -33 
+Q 819 25 488 141 
+L 488 750 
+Q 750 597 1062 519 
+Q 1375 441 1716 441 
+Q 2309 441 2620 675 
+Q 2931 909 2931 1356 
+Q 2931 1769 2642 2001 
+Q 2353 2234 1838 2234 
+L 1294 2234 
+L 1294 2753 
+L 1863 2753 
+Q 2328 2753 2575 2939 
+Q 2822 3125 2822 3475 
+Q 2822 3834 2567 4026 
+Q 2313 4219 1838 4219 
+Q 1578 4219 1281 4162 
+Q 984 4106 628 3988 
+L 628 4550 
+Q 988 4650 1302 4700 
+Q 1616 4750 1894 4750 
+Q 2613 4750 3031 4423 
+Q 3450 4097 3450 3541 
+Q 3450 3153 3228 2886 
+Q 3006 2619 2597 2516 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-33"/>
+      </g>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#mb92f0af615" x="358.521669" y="307.584" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <!-- 4 -->
+      <g transform="translate(355.340419 322.182437) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-34" d="M 2419 4116 
+L 825 1625 
+L 2419 1625 
+L 2419 4116 
+z
+M 2253 4666 
+L 3047 4666 
+L 3047 1625 
+L 3713 1625 
+L 3713 1100 
+L 3047 1100 
+L 3047 0 
+L 2419 0 
+L 2419 1100 
+L 313 1100 
+L 313 1709 
+L 2253 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-34"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6">
+      <defs>
+       <path id="mbd675d7795" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="278.339754" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <!-- −1 -->
+      <g transform="translate(35.857813 282.138973) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-2212" d="M 678 2272 
+L 4684 2272 
+L 4684 1741 
+L 678 1741 
+L 678 2272 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-2212"/>
+       <use xlink:href="#DejaVuSans-31" x="83.789062"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="234.95949" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <!-- 0 -->
+      <g transform="translate(44.2375 238.758709) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-30"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="191.579226" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <!-- 1 -->
+      <g transform="translate(44.2375 195.378445) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-31"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="148.198962" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <!-- 2 -->
+      <g transform="translate(44.2375 151.998181) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-32"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="104.818698" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <!-- 3 -->
+      <g transform="translate(44.2375 108.617917) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-33"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#mbd675d7795" x="57.6" y="61.438434" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <!-- 4 -->
+      <g transform="translate(44.2375 65.237653) scale(0.1 -0.1)">
+       <use xlink:href="#DejaVuSans-34"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 57.6 307.584 
+L 57.6 41.472 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 414.72 307.584 
+L 414.72 41.472 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 57.6 307.584 
+L 414.72 307.584 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 57.6 41.472 
+L 414.72 41.472 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <!-- umap + kmeans on m045_c27 -->
+    <g transform="translate(144.051562 35.472) scale(0.12 -0.12)">
+     <defs>
+      <path id="DejaVuSans-75" d="M 544 1381 
+L 544 3500 
+L 1119 3500 
+L 1119 1403 
+Q 1119 906 1312 657 
+Q 1506 409 1894 409 
+Q 2359 409 2629 706 
+Q 2900 1003 2900 1516 
+L 2900 3500 
+L 3475 3500 
+L 3475 0 
+L 2900 0 
+L 2900 538 
+Q 2691 219 2414 64 
+Q 2138 -91 1772 -91 
+Q 1169 -91 856 284 
+Q 544 659 544 1381 
+z
+M 1991 3584 
+L 1991 3584 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-6d" d="M 3328 2828 
+Q 3544 3216 3844 3400 
+Q 4144 3584 4550 3584 
+Q 5097 3584 5394 3201 
+Q 5691 2819 5691 2113 
+L 5691 0 
+L 5113 0 
+L 5113 2094 
+Q 5113 2597 4934 2840 
+Q 4756 3084 4391 3084 
+Q 3944 3084 3684 2787 
+Q 3425 2491 3425 1978 
+L 3425 0 
+L 2847 0 
+L 2847 2094 
+Q 2847 2600 2669 2842 
+Q 2491 3084 2119 3084 
+Q 1678 3084 1418 2786 
+Q 1159 2488 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 3500 
+L 1159 3500 
+L 1159 2956 
+Q 1356 3278 1631 3431 
+Q 1906 3584 2284 3584 
+Q 2666 3584 2933 3390 
+Q 3200 3197 3328 2828 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-61" d="M 2194 1759 
+Q 1497 1759 1228 1600 
+Q 959 1441 959 1056 
+Q 959 750 1161 570 
+Q 1363 391 1709 391 
+Q 2188 391 2477 730 
+Q 2766 1069 2766 1631 
+L 2766 1759 
+L 2194 1759 
+z
+M 3341 1997 
+L 3341 0 
+L 2766 0 
+L 2766 531 
+Q 2569 213 2275 61 
+Q 1981 -91 1556 -91 
+Q 1019 -91 701 211 
+Q 384 513 384 1019 
+Q 384 1609 779 1909 
+Q 1175 2209 1959 2209 
+L 2766 2209 
+L 2766 2266 
+Q 2766 2663 2505 2880 
+Q 2244 3097 1772 3097 
+Q 1472 3097 1187 3025 
+Q 903 2953 641 2809 
+L 641 3341 
+Q 956 3463 1253 3523 
+Q 1550 3584 1831 3584 
+Q 2591 3584 2966 3190 
+Q 3341 2797 3341 1997 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-70" d="M 1159 525 
+L 1159 -1331 
+L 581 -1331 
+L 581 3500 
+L 1159 3500 
+L 1159 2969 
+Q 1341 3281 1617 3432 
+Q 1894 3584 2278 3584 
+Q 2916 3584 3314 3078 
+Q 3713 2572 3713 1747 
+Q 3713 922 3314 415 
+Q 2916 -91 2278 -91 
+Q 1894 -91 1617 61 
+Q 1341 213 1159 525 
+z
+M 3116 1747 
+Q 3116 2381 2855 2742 
+Q 2594 3103 2138 3103 
+Q 1681 3103 1420 2742 
+Q 1159 2381 1159 1747 
+Q 1159 1113 1420 752 
+Q 1681 391 2138 391 
+Q 2594 391 2855 752 
+Q 3116 1113 3116 1747 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-20" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-2b" d="M 2944 4013 
+L 2944 2272 
+L 4684 2272 
+L 4684 1741 
+L 2944 1741 
+L 2944 0 
+L 2419 0 
+L 2419 1741 
+L 678 1741 
+L 678 2272 
+L 2419 2272 
+L 2419 4013 
+L 2944 4013 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-6b" d="M 581 4863 
+L 1159 4863 
+L 1159 1991 
+L 2875 3500 
+L 3609 3500 
+L 1753 1863 
+L 3688 0 
+L 2938 0 
+L 1159 1709 
+L 1159 0 
+L 581 0 
+L 581 4863 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-65" d="M 3597 1894 
+L 3597 1613 
+L 953 1613 
+Q 991 1019 1311 708 
+Q 1631 397 2203 397 
+Q 2534 397 2845 478 
+Q 3156 559 3463 722 
+L 3463 178 
+Q 3153 47 2828 -22 
+Q 2503 -91 2169 -91 
+Q 1331 -91 842 396 
+Q 353 884 353 1716 
+Q 353 2575 817 3079 
+Q 1281 3584 2069 3584 
+Q 2775 3584 3186 3129 
+Q 3597 2675 3597 1894 
+z
+M 3022 2063 
+Q 3016 2534 2758 2815 
+Q 2500 3097 2075 3097 
+Q 1594 3097 1305 2825 
+Q 1016 2553 972 2059 
+L 3022 2063 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-6e" d="M 3513 2113 
+L 3513 0 
+L 2938 0 
+L 2938 2094 
+Q 2938 2591 2744 2837 
+Q 2550 3084 2163 3084 
+Q 1697 3084 1428 2787 
+Q 1159 2491 1159 1978 
+L 1159 0 
+L 581 0 
+L 581 3500 
+L 1159 3500 
+L 1159 2956 
+Q 1366 3272 1645 3428 
+Q 1925 3584 2291 3584 
+Q 2894 3584 3203 3211 
+Q 3513 2838 3513 2113 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-73" d="M 2834 3397 
+L 2834 2853 
+Q 2591 2978 2328 3040 
+Q 2066 3103 1784 3103 
+Q 1356 3103 1142 2972 
+Q 928 2841 928 2578 
+Q 928 2378 1081 2264 
+Q 1234 2150 1697 2047 
+L 1894 2003 
+Q 2506 1872 2764 1633 
+Q 3022 1394 3022 966 
+Q 3022 478 2636 193 
+Q 2250 -91 1575 -91 
+Q 1294 -91 989 -36 
+Q 684 19 347 128 
+L 347 722 
+Q 666 556 975 473 
+Q 1284 391 1588 391 
+Q 1994 391 2212 530 
+Q 2431 669 2431 922 
+Q 2431 1156 2273 1281 
+Q 2116 1406 1581 1522 
+L 1381 1569 
+Q 847 1681 609 1914 
+Q 372 2147 372 2553 
+Q 372 3047 722 3315 
+Q 1072 3584 1716 3584 
+Q 2034 3584 2315 3537 
+Q 2597 3491 2834 3397 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-6f" d="M 1959 3097 
+Q 1497 3097 1228 2736 
+Q 959 2375 959 1747 
+Q 959 1119 1226 758 
+Q 1494 397 1959 397 
+Q 2419 397 2687 759 
+Q 2956 1122 2956 1747 
+Q 2956 2369 2687 2733 
+Q 2419 3097 1959 3097 
+z
+M 1959 3584 
+Q 2709 3584 3137 3096 
+Q 3566 2609 3566 1747 
+Q 3566 888 3137 398 
+Q 2709 -91 1959 -91 
+Q 1206 -91 779 398 
+Q 353 888 353 1747 
+Q 353 2609 779 3096 
+Q 1206 3584 1959 3584 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-35" d="M 691 4666 
+L 3169 4666 
+L 3169 4134 
+L 1269 4134 
+L 1269 2991 
+Q 1406 3038 1543 3061 
+Q 1681 3084 1819 3084 
+Q 2600 3084 3056 2656 
+Q 3513 2228 3513 1497 
+Q 3513 744 3044 326 
+Q 2575 -91 1722 -91 
+Q 1428 -91 1123 -41 
+Q 819 9 494 109 
+L 494 744 
+Q 775 591 1075 516 
+Q 1375 441 1709 441 
+Q 2250 441 2565 725 
+Q 2881 1009 2881 1497 
+Q 2881 1984 2565 2268 
+Q 2250 2553 1709 2553 
+Q 1456 2553 1204 2497 
+Q 953 2441 691 2322 
+L 691 4666 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-5f" d="M 3263 -1063 
+L 3263 -1509 
+L -63 -1509 
+L -63 -1063 
+L 3263 -1063 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-63" d="M 3122 3366 
+L 3122 2828 
+Q 2878 2963 2633 3030 
+Q 2388 3097 2138 3097 
+Q 1578 3097 1268 2742 
+Q 959 2388 959 1747 
+Q 959 1106 1268 751 
+Q 1578 397 2138 397 
+Q 2388 397 2633 464 
+Q 2878 531 3122 666 
+L 3122 134 
+Q 2881 22 2623 -34 
+Q 2366 -91 2075 -91 
+Q 1284 -91 818 406 
+Q 353 903 353 1747 
+Q 353 2603 823 3093 
+Q 1294 3584 2113 3584 
+Q 2378 3584 2631 3529 
+Q 2884 3475 3122 3366 
+z
+" transform="scale(0.015625)"/>
+      <path id="DejaVuSans-37" d="M 525 4666 
+L 3525 4666 
+L 3525 4397 
+L 1831 0 
+L 1172 0 
+L 2766 4134 
+L 525 4134 
+L 525 4666 
+z
+" transform="scale(0.015625)"/>
+     </defs>
+     <use xlink:href="#DejaVuSans-75"/>
+     <use xlink:href="#DejaVuSans-6d" x="63.378906"/>
+     <use xlink:href="#DejaVuSans-61" x="160.791016"/>
+     <use xlink:href="#DejaVuSans-70" x="222.070312"/>
+     <use xlink:href="#DejaVuSans-20" x="285.546875"/>
+     <use xlink:href="#DejaVuSans-2b" x="317.333984"/>
+     <use xlink:href="#DejaVuSans-20" x="401.123047"/>
+     <use xlink:href="#DejaVuSans-6b" x="432.910156"/>
+     <use xlink:href="#DejaVuSans-6d" x="490.820312"/>
+     <use xlink:href="#DejaVuSans-65" x="588.232422"/>
+     <use xlink:href="#DejaVuSans-61" x="649.755859"/>
+     <use xlink:href="#DejaVuSans-6e" x="711.035156"/>
+     <use xlink:href="#DejaVuSans-73" x="774.414062"/>
+     <use xlink:href="#DejaVuSans-20" x="826.513672"/>
+     <use xlink:href="#DejaVuSans-6f" x="858.300781"/>
+     <use xlink:href="#DejaVuSans-6e" x="919.482422"/>
+     <use xlink:href="#DejaVuSans-20" x="982.861328"/>
+     <use xlink:href="#DejaVuSans-6d" x="1014.648438"/>
+     <use xlink:href="#DejaVuSans-30" x="1112.060547"/>
+     <use xlink:href="#DejaVuSans-34" x="1175.683594"/>
+     <use xlink:href="#DejaVuSans-35" x="1239.306641"/>
+     <use xlink:href="#DejaVuSans-5f" x="1302.929688"/>
+     <use xlink:href="#DejaVuSans-63" x="1352.929688"/>
+     <use xlink:href="#DejaVuSans-32" x="1407.910156"/>
+     <use xlink:href="#DejaVuSans-37" x="1471.533203"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcb15053a69">
+   <rect x="57.6" y="41.472" width="357.12" height="266.112"/>
+  </clipPath>
+ </defs>
+</svg>

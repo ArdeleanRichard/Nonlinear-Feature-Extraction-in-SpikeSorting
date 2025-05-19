@@ -87,129 +87,145 @@ class KMapperWrapper:
 
 def load_algorithms_fe():
     algorithms = {
-        "pca": {
-            "estimator": PCA,
-            "param_grid": {
-                "n_components": 2,
-            },
-        },
-
-
-        "ica": {
-            "estimator": FastICA,
-            "param_grid": {
-                "n_components": 2,
-                "fun": "logcosh",
-                "max_iter": 200,
-                "tol": 1e-3,
-            },
-        },
-
-
-        "isomap": {
-            "estimator": Isomap,
-            "param_grid": {
-                "n_neighbors": 100,
-                "n_components": 2,
-                "eigen_solver": "arpack",
-                "path_method": "D",
-                "n_jobs": -1,
-            },
-        },
-
-        "kpca": {
-            "estimator": KernelPCA,
-            "param_grid": {
-                "n_components": 2,
-                "kernel": "rbf",
-                "gamma": 0.1
-             },
-        },
-
-
-        "tsne": {
-            "estimator": TSNE,
-            "param_grid": {
-                "n_components": 2,
-                "perplexity": 30,
-                "n_iter": 1000
-             },
-        },
-
-        # Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
-        "lle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "n_neighbors": 70,
-                "method": "standard"
-            },
-        },
-
-        "mlle": {
-            "estimator": LocallyLinearEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "n_neighbors": 50,  # n_neighbors > n_components
-                "method": "modified"
-            },
-        },
-
-
-        # Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
-        # "mds": {
-        #     "estimator": MDS,
+        # "pca": {
+        #     "estimator": PCA,
         #     "param_grid": {
         #         "n_components": 2,
-        #         "metric": True
+        #     },
+        # },
+        #
+        #
+        # "ica": {
+        #     "estimator": FastICA,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "fun": "logcosh",
+        #         "max_iter": 200,
+        #         "tol": 1e-3,
+        #     },
+        # },
+        #
+        #
+        # "isomap": {
+        #     "estimator": Isomap,
+        #     "param_grid": {
+        #         "n_neighbors": 100,
+        #         "n_components": 2,
+        #         "eigen_solver": "arpack",
+        #         "path_method": "D",
+        #         "n_jobs": -1,
+        #     },
+        # },
+        #
+        # "tsne": {
+        #     "estimator": TSNE,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "perplexity": 30,
+        #         "max_iter": 1000
+        #     },
+        # },
+        #
+        # # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
+        # "trimap": {
+        #     "estimator": TriMapWrapper,
+        #     "param_grid": {
+        #         "n_dims": 2
+        #     },
+        # },
+        #
+        # "umap": {
+        #     "estimator": UMAP,
+        #     "param_grid": {
+        #         "n_neighbors": 10,
+        #         "min_dist": 0.05,
+        #         "metric": "chebyshev",
+        #         "n_epochs": 500,
+        #         "n_components": 2,
+        #         "n_jobs": 1,
+        #     },
+        # },
+        #
+        #
+        # "kpca": {
+        #     "estimator": KernelPCA,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "kernel": "rbf",
+        #         "gamma": 0.1
+        #      },
+        # },
+        #
+        #
+        #
+        #
+        # ### Locally Linear Embedding (LLE) (sklearn.manifold.LocallyLinearEmbedding) - Preserves local linear structures.
+        # "lle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "n_neighbors": 70,
+        #         "method": "standard"
+        #     },
+        # },
+        #
+        # "mlle": {
+        #     "estimator": LocallyLinearEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "n_neighbors": 50,  # n_neighbors > n_components
+        #         "method": "modified"
         #     },
         # },
 
 
 
-        # Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
-        "spectral": {
-            "estimator": SpectralEmbedding,
-            "param_grid": {
-                "n_components": 2,
-                "affinity": "nearest_neighbors"
-            },
-        },
+
+        ### Spectral Embedding (Laplacian Eigenmaps, sklearn.manifold.SpectralEmbedding) - Constructs graph Laplacian and uses its eigenvectors for embedding.
+        # "spectral": {
+        #     "estimator": SpectralEmbedding,
+        #     "param_grid": {
+        #         "n_components": 2,
+        #         "affinity": "nearest_neighbors"
+        #     },
+        # },
+        #
+        #
+        # "ae": {
+        #     "estimator": AutoEncoder,
+        #     "param_grid": {
+        #         "latent_dim": 2,
+        #         "hidden_dims": [70,40,20,10],
+        #         "epochs": 100,
+        #         "lr": 0.001,
+        #         "batch_size": 64,
+        #         "encoder_non_linearity": Tanh(),
+        #         "decoder_non_linearity": Tanh(),
+        #
+        #     },
+        # },
+
+        # "som": {
+        #     "estimator": SOMWrapper,
+        #     "param_grid": {
+        #         "x": 10,
+        #         "y": 10,
+        #         "sigma": 1.0,
+        #         "learning_rate": 0.5,
+        #         "num_iteration": 1000
+        #     },
+        # },
+        #
+        # # PHATE (phate) - Heat diffusion based embedding preserving local and global structure, popular in bioinformatics.
+        # "phate": {
+        #     "estimator": PHATEWrapper,
+        #     "param_grid": {
+        #         "n_components": 2
+        #     },
+        # },
 
 
-
-
-
-
-
-        "umap": {
-            "estimator": UMAP,
-            "param_grid": {
-                "n_neighbors": 10,
-                "min_dist": 0.05,
-                "metric": "chebyshev",
-                "n_epochs": 500,
-                "n_components": 2,
-                "n_jobs": 1,
-            },
-        },
-
-
-        "ae": {
-            "estimator": AutoEncoder,
-            "param_grid": {
-                "latent_dim": 2,
-                "hidden_dims": [70,40,20,10],
-                "epochs": 100,
-                "lr": 0.001,
-                "batch_size": 64,
-                "encoder_non_linearity": Tanh(),
-                "decoder_non_linearity": Tanh(),
-
-            },
-        },
-
-        # Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
+        ### Diffusion Maps (pydiffmap) - Builds a diffusion operator over the data to reveal intrinsic geometry.
         "diffusion_map": {
             "estimator": DiffusionMapWrapper,
             "param_grid": {
@@ -219,34 +235,14 @@ def load_algorithms_fe():
             },
         },
 
-
-        "som": {
-            "estimator": SOMWrapper,
+        ### Multidimensional Scaling (MDS) (sklearn.manifold.MDS) - Finds embeddings preserving pairwise distances (metric or non metric).
+        "mds": {
+            "estimator": MDS,
             "param_grid": {
-                "x": 10,
-                "y": 10,
-                "sigma": 1.0,
-                "learning_rate": 0.5,
-                "num_iteration": 1000
+                "n_components": 2,
+                "metric": True
             },
         },
-
-        # PHATE (phate) - Heat diffusion based embedding preserving local and global structure, popular in bioinformatics.
-        "phate": {
-            "estimator": PHATEWrapper,
-            "param_grid": {
-                "n_components": 2
-            },
-        },
-
-        # TriMap (trimap) - Uses triplet constraints (“i closer to j than k”) to optimize embeddings.
-        "trimap": {
-            "estimator": TriMapWrapper,
-            "param_grid": {
-                "n_dims": 2
-            },
-        },
-
 
 
 
@@ -303,6 +299,7 @@ def load_algorithms_clust():
             "estimator": KMeans,
             "param_grid": {
                 "n_clusters": 2,
+                "max_iter": 1000,
             },
         },
 
