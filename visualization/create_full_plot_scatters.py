@@ -132,7 +132,7 @@ title_map = {
     "DBS": "DBS",
 }
 
-def main_scatter_plots():
+def main_scatter_plots(scatter_folders=["fig3_Sim53", "fig4_Sim81", "fig5_Sim67", "fig6_Sim86"]):
     # position_to_algorithm = {
     #     (0, 0): "pca", (0, 1): "mds", (0, 2): "ica",
     #     (1, 0): "kpca", (1, 1): "som", (1, 2): "ae",
@@ -152,7 +152,7 @@ def main_scatter_plots():
 
     # Directory where your scatter plot files are located
     fig_folder = "../paper/figures/"
-    for scatter_plot_folder in ["fig3_Sim53", "fig4_Sim81", "fig5_Sim67", "fig6_Sim86"] :
+    for scatter_plot_folder in scatter_folders:
 
         # Create the grid
         fig = create_scatter_grid(
@@ -218,5 +218,6 @@ def main_metrics():
 
 # Example usage:
 if __name__ == "__main__":
-    # main_scatter_plots()
-    main_metrics()
+    # main_scatter_plots(scatter_folders=["fig3_Sim53", "fig4_Sim81", "fig5_Sim67", "fig6_Sim86"])
+    # main_metrics()
+    main_scatter_plots(scatter_folders=["fig9_kampff_c28", "fig10_kampff_c37"])
