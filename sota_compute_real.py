@@ -7,6 +7,7 @@ from sklearn import preprocessing
 from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_rand_score, adjusted_mutual_info_score, calinski_harabasz_score
 from sklearn.metrics.cluster import contingency_matrix
 import matplotlib
+import time
 
 from algos import load_algorithms_fe, load_algorithms_clust
 
@@ -71,7 +72,10 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
 
                 try:
                     transformer = fe_details["estimator"](**fe_params)
+                    start_time = time.time()
                     X_transformed = transformer.fit_transform(X)
+                    end_time = time.time()
+                    elapsed_time = end_time - start_time
                     os.makedirs(DIR_RESULTS + f"./spaces/{fe_name}/", exist_ok=True)
                     np.savetxt(DIR_RESULTS + f"spaces/{fe_name}/{dataset_name}.csv", X_transformed, delimiter=",")
 
@@ -98,6 +102,7 @@ def perform_grid_search(datasets, featureextraction_algorithms, clustering_algor
                         "silhouette_score": silhouette,
                         "calinski_harabasz_score": calinski_harabasz,
                         "davies_bouldin_score": davies_bouldin,
+                        "time": elapsed_time,
                     }
                     print(scores)
 
