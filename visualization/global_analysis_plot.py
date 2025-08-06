@@ -5,6 +5,7 @@ from matplotlib import pyplot as plt
 from matplotlib.patches import Polygon
 import pandas as pd
 from scipy import stats
+from scipy.stats import shapiro, normaltest
 
 from constants import LABEL_COLOR_MAP_SMALLER
 import seaborn as sn
@@ -92,7 +93,8 @@ def compute_ttest(data, method_names):
     labels = np.zeros((len(method_names), len(method_names)), dtype=object)
     for m1_id, m1 in enumerate(method_names):
         for m2_id, m2 in enumerate(method_names):
-            result = stats.ttest_ind(data[m1_id], data[m2_id], equal_var=True)[1] * (len(method_names) * (len(method_names) - 1) / 2)
+            # result = stats.ttest_ind(data[m1_id], data[m2_id], equal_var=False)[1] * (len(method_names) * (len(method_names) - 1) / 2)
+            result = stats.mannwhitneyu(data[m1_id], data[m2_id], alternative='two-sided')[1] * (len(method_names) * (len(method_names) - 1) / 2)
             if result > 0.05:
                 ttest_matrix[m1_id][m2_id] = -1
                 labels[m1_id][m2_id] = ""
