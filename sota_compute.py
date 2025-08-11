@@ -8,36 +8,17 @@ from sklearn.metrics import silhouette_score, davies_bouldin_score, adjusted_ran
 from sklearn.metrics.cluster import contingency_matrix
 import matplotlib
 
-from algos import load_algorithms_fe, load_algorithms_clust
+from algos import load_algorithms_fe, load_algorithms_clust, normalize_dbs
 
 matplotlib.use('Agg')
 from constants import DIR_RESULTS, DIR_FIGURES
-from datasets import load_all_data
+from datasets import load_all_data, data_normalisation
 from visualization import scatter_plot
 
 
-def data_normalisation(X, norm_type=""):
-    if norm_type == "":
-        return X
-    elif norm_type == "minmax":
-        scaler = preprocessing.MinMaxScaler().fit(X)
-        X = scaler.transform(X)
-        X = np.clip(X, 0, 1)
-        return X
-    elif norm_type == "standard":
-        scaler = preprocessing.StandardScaler().fit(X)
-        X = scaler.transform(X)
-        return X
-    else:
-        return None
 
 
-
-def normalize_dbs(df):
-    df['norm_davies_bouldin_score'] = 1 / (1 + df['davies_bouldin_score'])
-    return df
-
-def perform_grid_search(datasets, featureextraction_algorithms, clustering_algorithms, n_repeats=10):
+def run(datasets, featureextraction_algorithms, clustering_algorithms):
     os.makedirs(DIR_RESULTS + "./grid_search/", exist_ok=True)
     os.makedirs(DIR_RESULTS + "./spaces/", exist_ok=True)
 
@@ -135,4 +116,4 @@ if __name__ == "__main__":
     datasets = load_all_data()
     fes = load_algorithms_fe()
     clusts = load_algorithms_clust()
-    perform_grid_search(datasets, fes, clusts)
+    run(datasets, fes, clusts)

@@ -22,5 +22,25 @@ def load_real_data():
 
     return datasets
 
+
+def data_normalisation(X, norm_type=""):
+    if norm_type == "":
+        return X
+    elif norm_type == "minmax":
+        scaler = preprocessing.MinMaxScaler().fit(X)
+        X = scaler.transform(X)
+        X = np.clip(X, 0, 1)
+        return X
+    elif norm_type == "standard":
+        scaler = preprocessing.StandardScaler().fit(X)
+        X = scaler.transform(X)
+        return X
+    else:
+        return None
+
+
+
+
 if __name__ == "__main__":
     load_real_data()
+

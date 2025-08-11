@@ -5,9 +5,8 @@ from matplotlib import pyplot as plt
 from matplotlib.patches import Polygon
 import pandas as pd
 from scipy import stats
-from scipy.stats import shapiro, normaltest
 
-from constants import LABEL_COLOR_MAP_SMALLER
+from label_map import LABEL_COLOR_MAP_SMALLER
 import seaborn as sn
 
 from visualization.global_analysis_utils import filter_columns_and_save

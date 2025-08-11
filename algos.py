@@ -301,3 +301,9 @@ def load_algorithms_clust():
     }
 
     return algorithms
+
+
+
+def normalize_dbs(df):
+    df['norm_davies_bouldin_score'] = 1 / (1 + df['davies_bouldin_score'])
+    return df

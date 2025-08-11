@@ -8,14 +8,39 @@ def load_all_data():
             continue
         datasets.append((f"Sim{simulation_number}", ds.get_dataset_simulation(simNr=simulation_number)))
 
-    # datasets = [
-    #     ("Sim1", ds.get_dataset_simulation(simNr=1)),
-    #     # ("Sim2", ds.get_dataset_simulation(simNr=2)),
-    #     # ("Sim4", ds.get_dataset_simulation(simNr=4)),
-    #     # ("Sim8", ds.get_dataset_simulation(simNr=8)),
-    # ]
-
     return datasets
 
 
+def data_normalisation(X, norm_type=""):
+    """Apply different normalization techniques to the data."""
+    if norm_type == "":
+        return X
+    elif norm_type == "minmax":
+        from sklearn import preprocessing
+        scaler = preprocessing.MinMaxScaler().fit(X)
+        X = scaler.transform(X)
+        X = np.clip(X, 0, 1)
+        return X
+    elif norm_type == "standard":
+        from sklearn import preprocessing
+        scaler = preprocessing.StandardScaler().fit(X)
+        X = scaler.transform(X)
+        return X
+    elif norm_type == "robust":
+        from sklearn import preprocessing
+        scaler = preprocessing.RobustScaler().fit(X)
+        X = scaler.transform(X)
+        return X
+    elif norm_type == "quantile":
+        from sklearn import preprocessing
+        scaler = preprocessing.QuantileTransformer(output_distribution='normal').fit(X)
+        X = scaler.transform(X)
+        return X
+    elif norm_type == "power":
+        from sklearn import preprocessing
+        scaler = preprocessing.PowerTransformer().fit(X)
+        X = scaler.transform(X)
+        return X
+    else:
+        return None
 

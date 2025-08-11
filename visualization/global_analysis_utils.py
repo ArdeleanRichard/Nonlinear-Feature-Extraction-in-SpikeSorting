@@ -1,13 +1,5 @@
 import os
-
-import numpy as np
-from matplotlib import pyplot as plt
-from matplotlib.patches import Polygon
 import pandas as pd
-from scipy import stats
-
-from constants import LABEL_COLOR_MAP_SMALLER
-import seaborn as sn
 
 def filter_columns_and_save(input_csv, columns):
     df = pd.read_csv(input_csv)

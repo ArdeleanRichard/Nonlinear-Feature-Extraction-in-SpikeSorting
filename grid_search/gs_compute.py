@@ -14,38 +14,6 @@ from gs_datasets import load_all_data
 from visualization import scatter_plot
 
 
-def data_normalisation(X, norm_type=""):
-    """Apply different normalization techniques to the data."""
-    if norm_type == "":
-        return X
-    elif norm_type == "minmax":
-        from sklearn import preprocessing
-        scaler = preprocessing.MinMaxScaler().fit(X)
-        X = scaler.transform(X)
-        X = np.clip(X, 0, 1)
-        return X
-    elif norm_type == "standard":
-        from sklearn import preprocessing
-        scaler = preprocessing.StandardScaler().fit(X)
-        X = scaler.transform(X)
-        return X
-    elif norm_type == "robust":
-        from sklearn import preprocessing
-        scaler = preprocessing.RobustScaler().fit(X)
-        X = scaler.transform(X)
-        return X
-    elif norm_type == "quantile":
-        from sklearn import preprocessing
-        scaler = preprocessing.QuantileTransformer(output_distribution='normal').fit(X)
-        X = scaler.transform(X)
-        return X
-    elif norm_type == "power":
-        from sklearn import preprocessing
-        scaler = preprocessing.PowerTransformer().fit(X)
-        X = scaler.transform(X)
-        return X
-    else:
-        return None
 
 
 def create_param_grid(algorithm_details):
