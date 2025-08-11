@@ -1,0 +1,30 @@
+EPD analysis session file
+
+Format version:
+1.0
+
+Analysis session name:
+
+
+Original dataset name on which the analysis session was created:
+c37_npx
+
+Original dataset CRC values (one can only use the analysis on the dataset it was created for):
+3505080222
+3028809559
+
+Number of event groups that define the trial:
+1
+
+Event group 1 -----------------------
+Nr. events in group:
+2
+Event list in group:
+2
+1
+
+Use additional trial info:
+No
+
+Number of custom channel groups defined by the user:
+0
