@@ -1,3 +1,0 @@
-normalization impact?
-real data?
-add HLLE/LTSA/MDS in supplementary?

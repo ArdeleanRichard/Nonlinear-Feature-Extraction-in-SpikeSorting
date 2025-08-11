@@ -7,8 +7,6 @@ scipy
 umap-learn
 scikit-network
 igraph
-leidenalg
-python-louvain
 pydiffmap
 minisom
 phate
